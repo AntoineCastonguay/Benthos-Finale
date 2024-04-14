@@ -1,0 +1,13 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+SQL.make|function|5551acd140753e5a
+read.dossier|function|cc9dddfe638ce86b
+colNA|function|8cf4f81d5ef45fb3
+la.taxonomie|function|b29643c61b0cd0e5
+normalize.time|function|83a41e5d60f94520
+prep.table|function|7a0bc3125010872c
+benthos|stem|a298f9211906373d|c112965ed883393f|026e5f925cce253b|-78417638||t19827.773803576s|b024ce6320606816|10398|rds|local|vector|||0.09||
+benthos.noNA|stem|a93983783d62f0a2|6397fd061018cc3f|7886b63792a06300|1852897296||t19827.7738039943s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.01||
+benthos.normT|stem|d9e480c8be5dfeaa|7a0969f549b2a457|cb8ea4192b62c80f|-291441157||t19827.7738054639s|256f8684626b156a|9689|rds|local|vector|||0.11||
+taxo|stem|4af7935a664e8872|975927f71bf6d358|6b9e13031b93466f|-1810004822||t19827.7738076084s|26be939c16f5458b|2609|rds|local|vector|||0.18||
+table|stem|1045ef3d32824769|4115e72de4ee3fdf|c26ed309591885f7|974367663||t19827.773807925s|65cf8ab1a9595bf4|10717|rds|local|vector|||0.02||
+SQL|stem|2a59d22ca4fcc05e|0850fc2ae5328312|a0d4aacbbe28927f|1000660553||t19827.7738091751s|ac45463db19e2cbe|48|rds|local|vector|||0.1|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
