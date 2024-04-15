@@ -1,0 +1,13 @@
+---
+title: "rapport"
+author: "AJC"
+date: "2024-04-15"
+output: html_document
+---
+```{r}
+list.res <- tar_read(graph)
+barplot(height = list.res[[1]]$abondance_moyenne,names.arg = list.res[[1]]$site_ab,las = 2)
+barplot(height = list.res[[2]]$average_count,names.arg = list.res[[2]]$site_ab, las=2)
+barplot(height = list.res[[3]]$abondance_moyenne,names.arg = list.res[[3]]$transparence_eau)
+```
+

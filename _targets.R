@@ -4,6 +4,7 @@ library(targets)
 library(rmarkdown)
 library(dplyr)
 library(RSQLite)
+library(tarchetypes)
 
 source("R/read.R")
 source("R/colNA.R")
@@ -11,6 +12,7 @@ source("R/normalize_time.R")
 source("R/la_taxonomie.R")
 source("R/prep_table.R")
 source("R/script_SQL.R")
+source("R/req_SQL.R")
 
 # pipeline
 list(
@@ -37,5 +39,13 @@ list(
   tar_target(
     SQL,
     SQL.make(table)
+  ),
+  tar_target(
+    graph,
+    SQL.get()
+  ),
+  tar_render(
+    rapport,
+    path ="rapport.Rmd"
   )
 )

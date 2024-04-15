@@ -16,7 +16,7 @@ SQL.get <- function() {
   
   res <- dbGetQuery(con, req)
   
-  barplot(height = res$abondance_moyenne,names.arg = res$site_ab,las = 2)
+  graph1 <- barplot(height = res$abondance_moyenne,names.arg = res$site_ab,las = 2)
   
   req2 <- 
     "SELECT site_ab, AVG(cc.count) AS average_count
@@ -29,7 +29,7 @@ SQL.get <- function() {
   
   res2 <- dbGetQuery(con, req2)
   
-  barplot(height = res2$average_count,names.arg = res2$site_ab, las=2)
+  graph2 <- barplot(height = res2$average_count,names.arg = res2$site_ab, las=2)
   
   req3 <- 
     "SELECT transparence_eau, AVG(abond) AS abondance_moyenne
@@ -45,5 +45,9 @@ SQL.get <- function() {
   
   res3 <- dbGetQuery(con, req3)
   
-  barplot(height = res3$abondance_moyenne,names.arg = res3$transparence_eau)
+
+  
+  dbDisconnect(con)
+  
+  return(list(res,res2,res3))
 }
