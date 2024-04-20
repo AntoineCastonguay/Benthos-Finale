@@ -15,10 +15,6 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
       if(any(esp[[2]] == "genus")){
         esp.genus <- subset(esp,esp[[2]] == "genus")
         taxonomie[i,5] <- esp.genus$name
-        
-        if(esp.genus$name == "Oligochaeta"){
-          taxonomie[i,8] <- 3
-        }
       }
       
       # si family est present stock dans taxonomie
