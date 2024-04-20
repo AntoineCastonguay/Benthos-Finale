@@ -1,16 +1,16 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
 SQL.make|function|90fad0f8d37c2032
+nettoyer|function|26b7b5fd0ebad7a1
 read.dossier|function|615e7f868924284d
 SQL.get|function|e1cc9d0e4404996e
 colNA|function|8cf4f81d5ef45fb3
 la.taxonomie|function|b29643c61b0cd0e5
-normalize.time|function|83a41e5d60f94520
 prep.table|function|f5053b128d7321da
-benthos.brut|stem|a298f9211906373d|c112965ed883393f|49f123dc53c98fa7|563296312||t19833.6952702296s|b024ce6320606816|10398|rds|local|vector|||0.14||
-rapport|stem|f16ddc09e92bcd52|d03e88e9037c1551|ef46db3751d8e999|-1266156412|rapport.html*rapport.Rmd|t19833.6952765325s|09ba5f85ea25e9f3|626199|file|local|vector|||0.7||
-graph|stem|40674d067de76df1|9564b7fcf22f769d|9db6081dfe537da5|-11234161||t19833.6952788156s|e39b36b147b4228c|794|rds|local|vector|||0.02||
-benthos.noNA|stem|a93983783d62f0a2|aa3658f14bbba2cd|636f95da4a202ac6|1852897296||t19833.6952790591s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0||
-benthos.normT|stem|d9e480c8be5dfeaa|7a0969f549b2a457|cb8ea4192b62c80f|-291441157||t19833.6952805207s|256f8684626b156a|9689|rds|local|vector|||0.11||
-taxo|stem|b856bb736cf7c26b|975927f71bf6d358|6b9e13031b93466f|-1810004822||t19833.6952827781s|dbbd13d548bf0c5b|2775|rds|local|vector|||0.19||
-table|stem|94bb703f41fc078f|4115e72de4ee3fdf|6a245a0e1348c510|974367663||t19833.6952830665s|a6f6bd933f8d3cf0|11123|rds|local|vector|||0.01||
-SQL|stem|2a59d22ca4fcc05e|0850fc2ae5328312|d84823e6bc0d053d|1000660553||t19833.6952843138s|ac45463db19e2cbe|48|rds|local|vector|||0.09|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+benthos.brut|stem|a298f9211906373d|c112965ed883393f|49f123dc53c98fa7|563296312||t19833.8010699193s|b024ce6320606816|10398|rds|local|vector|||0.14||
+graph|stem|40674d067de76df1|9564b7fcf22f769d|9db6081dfe537da5|-11234161||t19833.8010703862s|e39b36b147b4228c|794|rds|local|vector|||0.03||
+benthos.noNA|stem|a93983783d62f0a2|aa3658f14bbba2cd|636f95da4a202ac6|1852897296||t19833.8010706703s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.02||
+rapport|stem|2315a17bbfbc8513|213d64cd97ae8c6d|884d265aee51a84e|-1266156412|rapport.html*rapport.Rmd|t19833.8010854763s|1260a73802070a07|750766|file|local|vector|||1.49||
+benthos.clean|stem|eec675b340a3bafc|566d1df0d5784fe3|e7aab79397600d87|430395511||t19833.8010892715s|624caf4910b73433|9683|rds|local|vector|||0.11||
+taxo|stem|9bb89977c7aef7ba|191ba77079c7073a|049eaa1e575e6228|-1810004822||t19833.8010925308s|78f268e757593ef5|2817|rds|local|vector|||0.27||
+table|stem|6eb43d61e4b86071|7b314a3b69722f22|6f91d752115b2dbe|974367663||t19833.8010928152s|4731f39073a43308|11156|rds|local|vector|||0||
+SQL|stem|2a59d22ca4fcc05e|0850fc2ae5328312|72b2572fade25779|1000660553||t19833.8010941449s|ac45463db19e2cbe|48|rds|local|vector|||0.11|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
