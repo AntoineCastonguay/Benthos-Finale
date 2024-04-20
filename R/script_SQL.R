@@ -15,6 +15,7 @@ SQL.make <- function(table){
     family                VARCHAR(50),
     genus                 VARCHAR(50),
     taxo_min              VARCHAR(50),
+    score_EPT             INTEGER(1),
     PRIMARY KEY (identification)
   );"
   dbSendQuery(con, creer_espece)

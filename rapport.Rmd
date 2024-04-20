@@ -23,7 +23,10 @@ ggplot(data, aes(x, y)) +
 data <- data.frame(x = list.res[[2]]$site_ab, y = round(list.res[[2]]$average_count))
 ggplot(data, aes(x, y)) +
   geom_bar(stat = "identity") +
-  theme(axis.text.x = element_text(angle = 45, size = 8, hjust = 1))
+  geom_text(aes(label = y), vjust = -0.5, size = 3) +
+  theme(axis.text.x = element_text(angle = 45, size = 8, hjust = 1)) +
+  scale_fill_brewer(palette = "Set3") +
+  labs(title = "Graphique à barres", x = "Axe X", y = "Axe Y")
 
 barplot(height = list.res[[3]]$abondance_moyenne,names.arg = list.res[[3]]$transparence_eau)
 ```
