@@ -2,7 +2,7 @@
 
 # Charger la bibliothèque taxize pour la fonction taxo
 library(taxize)
-file.edit("~/R-projet/.Renviron")
+# file.edit("~/R-projet/.Renviron")
 # Necessaire pour grand volume d'analyse avec taxize
 # Ecrire dans le .Renviron : ENTREZ_KEY=***
 # Ou *** = API key (https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/)
