@@ -3,8 +3,8 @@
 attribution.taxo <- function(benthos, esp.info, list.esp){
   
   # Creation de la matrix taxonomie
-  taxonomie <- matrix(NA,length(list.esp),7)
-  colnames(taxonomie) <- c("phylum", "class", "order", "family", "genus", "taxo_identification", "identification")
+  taxonomie <- matrix(NA,length(list.esp),8)
+  colnames(taxonomie) <- c("phylum", "class", "order", "family", "genus", "taxo_identification", "identification","score_EPT")
   i <- 1
   
   for (esp in esp.info) {
@@ -21,12 +21,93 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
       if(any(esp[[2]] == "family")){
         esp.family <- subset(esp,esp[[2]] == "family")
         taxonomie[i,4] <- esp.family$name
+        if(esp.family$name == "Baetiscidae"){
+          taxonomie[i,8] <- 3
+        }else if(esp.family$name == "Ephemeridae" 
+                 || esp.family$name == "Polymitarcyidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Potamanthidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Ephemerellidae"){
+          taxonomie[i,8] <- 1
+        }else if(esp.family$name == "Leptophlebiidae"){
+          taxonomie[i,8] <- 2
+        }else if(esp.family$name == "Caenidae"){
+          taxonomie[i,8] <- 7
+        }else if(esp.family$name == "Leptohyphidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Heptageniidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Isonychiidae"){
+          taxonomie[i,8] <- 2
+        }else if(esp.family$name == "Ameletidae" 
+                 || esp.family$name == "Baetidae" 
+                 || esp.family$name == "Siphlonuridae"
+                 || esp.family$name == "Metretopodidae"){
+          taxonomie[i,8] <- 3
+        }else if(esp.family$name == "Hydropsychidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Hydroptilidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Helicopsychidae"){
+          taxonomie[i,8] <- 3
+        }else if(esp.family$name == "Rhyacophilidae"){
+          taxonomie[i,8] <- 0
+        }else if(esp.family$name == "Philopotamidae" 
+                 || esp.family$name == "Polycentropodidae" 
+                 || esp.family$name == "Psychomyiidae"
+                 || esp.family$name == "Dipseudopsidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Goeridae"){
+          taxonomie[i,8] <- 3
+        }else if(esp.family$name == "Leptoceridae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Molannidae"){
+          taxonomie[i,8] <- 6
+        }else if(esp.family$name == "Limnephilidae" 
+                 || esp.family$name == "Apataniidae" 
+                 || esp.family$name == "Lepidostomatidae"
+                 || esp.family$name == "Brachycentridae"
+                 || esp.family$name == "Odontoceridae"
+                 || esp.family$name == "Uenoidae"){
+          taxonomie[i,8] <- 2
+        }else if(esp.family$name == "Phryganeidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Glossosomatidae"){
+          taxonomie[i,8] <- 0
+        }else if(esp.family$name == "Peltoperlidae"){
+          taxonomie[i,8] <- 0
+        }else if(esp.family$name == "Pteronarcyidae"){
+          taxonomie[i,8] <- 0
+        }else if(esp.family$name == "Perlidae"){
+          taxonomie[i,8] <- 1
+        }else if(esp.family$name == "Capniidae" 
+                 || esp.family$name == "Chloroperlidae" 
+                 || esp.family$name == "Leuctridae"
+                 || esp.family$name == "Nemouridae"
+                 || esp.family$name == "Taeniopterygidae"
+                 || esp.family$name == "Perlodidae"){
+          taxonomie[i,8] <- 1
+        }
       }
       
       # si order est present stock dans taxonomie
       if(any(esp[[2]] == "order")){
         esp.order <- subset(esp,esp[[2]] == "order")
         taxonomie[i,3] <- esp.order$name
+        if(esp.order$name == "Ephemeroptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 3
+          }
+        }else if(esp.order$name == "Plecoptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 1
+          }
+        }else if(esp.order$name == "Trichoptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 3
+          }
+        }
       }
       
       # si class est present stock dans taxonomie
@@ -48,6 +129,8 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
       
       # Identification brut
       taxonomie[i,7] <- list.esp[i]
+      
+      
     }else{
       if(list.esp[i] == "Caecidota"){
         taxonomie[i,1] <- "Arthropoda"

@@ -10,7 +10,8 @@ prep.table <- function(benthos, taxonomie){
                           orders = taxonomie$order,
                           family = taxonomie$family,
                           genus = taxonomie$genus,
-                          taxo_min= taxonomie$taxo_identification)
+                          taxo_min = taxonomie$taxo_identification,
+                          score_EPT = taxonomie$score_EPT)
   
   abondance <- data.frame(date_ab = benthos$date,
                           site_ab = benthos$site,

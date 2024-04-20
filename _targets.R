@@ -5,6 +5,7 @@ library(rmarkdown)
 library(dplyr)
 library(RSQLite)
 library(tarchetypes)
+library(rticles)
 
 source("R/read.R")
 source("R/colNA.R")
