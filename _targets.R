@@ -8,7 +8,7 @@ library(tarchetypes)
 
 source("R/read.R")
 source("R/colNA.R")
-source("R/normalize_time.R")
+source("R/nettoyage.R")
 source("R/la_taxonomie.R")
 source("R/prep_table.R")
 source("R/script_SQL.R")
@@ -25,16 +25,16 @@ list(
     colNA(benthos.brut)
   ),
   tar_target(
-    benthos.normT,
-    normalize.time(benthos.noNA)
+    benthos.clean,
+    nettoyer(benthos.noNA)
   ),
   tar_target(
     taxo,
-    la.taxonomie(benthos.normT)
+    la.taxonomie(benthos.clean)
   ),
   tar_target(
     table,
-    prep.table(benthos.normT,taxo)
+    prep.table(benthos.clean,taxo)
   ),
   tar_target(
     SQL,

@@ -1,9 +1,9 @@
 # Fonction de normalisation du temps
 
-normalize.time <- function(benthos) {
+normalize.time <- function(heures) {
   
-  for (i in 1:length(benthos$heure_obs)) {
-    time.str <- benthos$heure_obs[i]
+  for (i in 1:length(heures)) {
+    time.str <- heures[i]
     
     # Trouve les deux premiere positions des charactere qui ne sont pas des chiffres
     pos <- gregexpr("[^0-9]", time.str)[[1]][1:2]
@@ -21,8 +21,8 @@ normalize.time <- function(benthos) {
     # Extrait la partie que l'on souhait
     good.time <- format(long.time, format = "%H:%M:%S")
     
-    benthos$heure_obs[i] <- good.time
+    heures[i] <- good.time
   }
   
-  return(benthos)
+  return(heures)
 }
