@@ -15,10 +15,10 @@ la.taxonomie <- function(benthos){
   list.esp <- list.esp[!(list.esp %in% nom.double)]
   
   # Ajout la taxonomie  
-  #source("taxonomie.R")  
+  source("R/taxonomie.R")  
   # Etape difficile a Run a cause de request a une base de donnees, donc l'etape a ete prefaite.
-  #esp.info <- taxo(list.esp, list.esp.double)
-  load("R/esp_info_3.RData")
+  # esp.info <- taxo(list.esp, list.esp.double)
+  load("R/esp_info_4.RData")
   
   # Cree une liste avec tous les especes dans le bonne ordre
   list.esp <- names(esp.info)
