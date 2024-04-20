@@ -25,13 +25,15 @@ FROM(
 		INNER JOIN site s ON s.site = a.site_ab AND s.date = a.date_ab
 		INNER JOIN (
 			SELECT 
-				site_ab, 
+				site_ab,
+				date_ab,
 				SUM(abondance) AS abTotal
 			FROM 
 				abondance
 			GROUP BY 
-				site_ab
-		) AS abT ON a.site_ab = abT.site_ab
+				site_ab,
+				date_ab
+		) AS abT ON (a.site_ab = abT.site_ab AND a.date_ab = abT.date_ab)
 	GROUP BY 
 		a.site_ab, 
 		a.date_ab
