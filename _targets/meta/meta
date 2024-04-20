@@ -1,16 +1,16 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-benthos|stem|a298f9211906373d|c112965ed883393f|026e5f925cce253b|-78417638||t19827.773803576s|b024ce6320606816|10398|rds|local|vector|||0.09||
-benthos.noNA|stem|a93983783d62f0a2|6397fd061018cc3f|7886b63792a06300|1852897296||t19827.7738039943s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.01||
-benthos.normT|stem|d9e480c8be5dfeaa|7a0969f549b2a457|cb8ea4192b62c80f|-291441157||t19827.7738054639s|256f8684626b156a|9689|rds|local|vector|||0.11||
+benthos|stem|a298f9211906373d|c112965ed883393f|026e5f925cce253b|-78417638||t19833.1984840587s|b024ce6320606816|10398|rds|local|vector|||0.09||
+benthos.noNA|stem|a93983783d62f0a2|6397fd061018cc3f|7886b63792a06300|1852897296||t19833.1984852743s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.01||
+benthos.normT|stem|d9e480c8be5dfeaa|7a0969f549b2a457|cb8ea4192b62c80f|-291441157||t19833.19884532s|256f8684626b156a|9689|rds|local|vector|||0.11||
 colNA|function|8cf4f81d5ef45fb3|||||||||||||||
-graph|stem|4ff98afc434a78c5|9564b7fcf22f769d|a848fc8aedcdcf46|-11234161||t19828.1073390685s|a82fd942818cd8aa|726|rds|local|vector|||0.06||
+graph|stem|40674d067de76df1|9564b7fcf22f769d|a848fc8aedcdcf46|-11234161||t19833.1984850097s|e39b36b147b4228c|794|rds|local|vector|||0.04||
 la.taxonomie|function|b29643c61b0cd0e5|||||||||||||||
 normalize.time|function|83a41e5d60f94520|||||||||||||||
 prep.table|function|2e369734bc690045|||||||||||||||
-rapport|stem|0d04bfcb54ab8a81|213d64cd97ae8c6d|11062e1895b9d5be|-1266156412|rapport.html*rapport.Rmd|t19828.1090242657s|6ec4353acba413d6|687904|file|local|vector|||0.93||
+rapport|stem|92c5c37c62005cc8|213d64cd97ae8c6d|884d265aee51a84e|-1266156412|rapport.html*rapport.Rmd|t19833.1988417252s|7e2a14eb6d5b2b67|706933|file|local|vector|||1.4||
 read.dossier|function|cc9dddfe638ce86b|||||||||||||||
-SQL|stem|2a59d22ca4fcc05e|0850fc2ae5328312|869a45e7dee29cfd|1000660553||t19833.1842154281s|ac45463db19e2cbe|48|rds|local|vector|||0.1|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+SQL|stem|2a59d22ca4fcc05e|0850fc2ae5328312|869a45e7dee29cfd|1000660553||t19833.1988485905s|ac45463db19e2cbe|48|rds|local|vector|||0.1|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
 SQL.get|function|105633c248660105|||||||||||||||
 SQL.make|function|5551acd140753e5a|||||||||||||||
-table|stem|a1460f2441063aec|4115e72de4ee3fdf|e29680d2804f3e3c|974367663||t19833.1842141026s|1da8bc246e9034a4|10965|rds|local|vector|||0.02||
-taxo|stem|4af7935a664e8872|975927f71bf6d358|6b9e13031b93466f|-1810004822||t19827.7738076084s|26be939c16f5458b|2609|rds|local|vector|||0.18||
+table|stem|a1460f2441063aec|4115e72de4ee3fdf|e29680d2804f3e3c|974367663||t19833.1988474039s|1da8bc246e9034a4|10965|rds|local|vector|||0.02||
+taxo|stem|4af7935a664e8872|975927f71bf6d358|6b9e13031b93466f|-1810004822||t19833.1988471144s|26be939c16f5458b|2609|rds|local|vector|||0.15||
