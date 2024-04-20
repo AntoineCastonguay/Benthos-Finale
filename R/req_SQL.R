@@ -55,69 +55,77 @@ ORDER BY
   res <- dbGetQuery(con, req)
   
   req2 <- 
-"SELECT 
-  a.site_ab, 
-  a.date_ab, 
-	abTotal,
-	SUM(CAST(a.abondance AS FLOAT)* e.score_EPT / CAST(abTotal AS FLOAT)) AS sc
-FROM 
-    espece e
-    INNER JOIN abondance a ON a.identification_ab = e.identification
-    INNER JOIN site s ON s.site = a.site_ab AND s.date = a.date_ab
-    INNER JOIN (
-        SELECT 
-            site_ab,
-			date_ab,
-            SUM(abondance) AS abTotal
-        FROM 
-            abondance
-        GROUP BY 
-            site_ab,
-			date_ab
-    ) AS abT ON (a.site_ab = abT.site_ab AND a.date_ab = abT.date_ab)
-GROUP BY 
-    a.site_ab, 
-    a.date_ab
-ORDER BY a.site_ab"
+"SELECT site_ab, AVG(parDate.abTotal) AS abTotal, AVG(sc) AS HBI
+FROM
+	(SELECT 
+		a.site_ab, 
+		a.date_ab, 
+		abTotal,
+		SUM(CAST(a.abondance AS FLOAT)* e.score_EPT / CAST(abTotal AS FLOAT)) AS sc
+	FROM 
+		espece e
+		INNER JOIN abondance a ON a.identification_ab = e.identification
+		INNER JOIN site s ON s.site = a.site_ab AND s.date = a.date_ab
+		INNER JOIN (
+			SELECT 
+				site_ab,
+				date_ab,
+				SUM(abondance) AS abTotal
+			FROM 
+				abondance
+			GROUP BY 
+				site_ab,
+				date_ab
+		) AS abT ON (a.site_ab = abT.site_ab AND a.date_ab = abT.date_ab)
+	GROUP BY 
+		a.site_ab, 
+		a.date_ab
+	ORDER BY a.site_ab) AS parDate
+GROUP BY site_ab
+ORDER BY site_ab"
   
   res2 <- dbGetQuery(con, req2)
   
   req3 <- 
-"SELECT 
-  a.site_ab, 
-  a.date_ab, 
-	richesse,
-	SUM(CAST(a.abondance AS FLOAT)* e.score_EPT / CAST(abTotal AS FLOAT)) AS sc
-FROM 
-    espece e
-    INNER JOIN abondance a ON a.identification_ab = e.identification
-    INNER JOIN site s ON s.site = a.site_ab AND s.date = a.date_ab
-    INNER JOIN (
-        SELECT 
-            site_ab,
-			date_ab,
-            SUM(abondance) AS abTotal
-        FROM 
-            abondance
-        GROUP BY 
-            site_ab,
-			date_ab
-    ) AS abT ON (a.site_ab = abT.site_ab AND a.date_ab = abT.date_ab)
-	INNER JOIN (
-        SELECT 
-            site_ab,
-			date_ab,
-            COUNT(identification_ab) AS richesse
-        FROM 
-            abondance
-        GROUP BY 
-            site_ab,
-			date_ab
-    ) AS abR ON (a.site_ab = abR.site_ab AND a.date_ab = abR.date_ab)
-GROUP BY 
-    a.site_ab, 
-    a.date_ab
-ORDER BY a.site_ab"
+"SELECT site_ab, AVG(parDate.richesse) AS richesse, AVG(sc) AS HBI
+FROM
+	(SELECT 
+		a.site_ab, 
+		a.date_ab, 
+		richesse,
+		SUM(CAST(a.abondance AS FLOAT)* e.score_EPT / CAST(abTotal AS FLOAT)) AS sc
+	FROM 
+		espece e
+		INNER JOIN abondance a ON a.identification_ab = e.identification
+		INNER JOIN site s ON s.site = a.site_ab AND s.date = a.date_ab
+		INNER JOIN (
+			SELECT 
+				site_ab,
+				date_ab,
+				SUM(abondance) AS abTotal
+			FROM 
+				abondance
+			GROUP BY 
+				site_ab,
+				date_ab
+		) AS abT ON (a.site_ab = abT.site_ab AND a.date_ab = abT.date_ab)
+		INNER JOIN (
+			SELECT 
+				site_ab,
+				date_ab,
+				COUNT(identification_ab) AS richesse
+			FROM 
+				abondance
+			GROUP BY 
+				site_ab,
+				date_ab
+		) AS abR ON (a.site_ab = abR.site_ab AND a.date_ab = abR.date_ab)
+	GROUP BY 
+		a.site_ab, 
+		a.date_ab
+	ORDER BY a.site_ab) AS parDate
+GROUP BY site_ab
+ORDER BY site_ab"
   
   res3 <- dbGetQuery(con, req3)
   
