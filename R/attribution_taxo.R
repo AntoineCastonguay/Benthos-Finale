@@ -15,6 +15,10 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
       if(any(esp[[2]] == "genus")){
         esp.genus <- subset(esp,esp[[2]] == "genus")
         taxonomie[i,5] <- esp.genus$name
+        
+        if(esp.genus$name == "Oligochaeta"){
+          taxonomie[i,8] <- 3
+        }
       }
       
       # si family est present stock dans taxonomie
@@ -88,6 +92,47 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
                  || esp.family$name == "Taeniopterygidae"
                  || esp.family$name == "Perlodidae"){
           taxonomie[i,8] <- 1
+        }else if(esp.family$name == "Psephenidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Haliplidae"){
+          taxonomie[i,8] <- 5
+        }else if(esp.family$name == "Gyrinidae"){
+          taxonomie[i,8] <- 4
+        }else if(esp.family$name == "Dytiscidae"){
+          taxonomie[i,8] <- 5
+        }else if(esp.family$name == "Curculionidae"){
+          taxonomie[i,8] <- 5
+        }else if(esp.family$name == "Hydrophilidae" 
+                 || esp.family$name == "Dytiscidae" 
+                 || esp.family$name == "Noteridae"){
+          taxonomie[i,8] <- 5
+        }else if(esp.family$name == "Elmidae" 
+                 || esp.family$name == "Dryopidae" 
+                 || esp.family$name == "Helophoridae"
+                 || esp.family$name == "Hydrochidae"){
+          taxonomie[i,8] <- 5
+        }else if(esp.family$name == "Chironomidae"){
+          taxonomie[i,8] <- 8
+        }else if(esp.family$name == "Ceratopogonidae"){
+          taxonomie[i,8] <- 6
+        }else if(esp.family$name == "Simuliidae"){
+          taxonomie[i,8] <- 6
+        }else if(esp.family$name == "Culicidae"
+                 || esp.family$name == "Chaoboridae"){
+          taxonomie[i,8] <- 8
+        }else if(esp.family$name == "Tipulidae"){
+          taxonomie[i,8] <- 3
+        }else if(esp.family$name == "Empididae"
+                 || esp.family$name == "Athericidae"){
+          taxonomie[i,8] <- 5
+        }else if(esp.family$name == "Sphaeriidae"){
+          taxonomie[i,8] <- 6
+        }else if(esp.family$name == "Physidae"){
+          taxonomie[i,8] <- 8
+        }else if(esp.family$name == "Ancylidae"){
+          taxonomie[i,8] <- 6
+        }else if(esp.family$name == "Lymnaeidae"){
+          taxonomie[i,8] <- 6
         }
       }
       
@@ -107,6 +152,34 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
           if(is.na(taxonomie[i,8])){
             taxonomie[i,8] <- 3
           }
+        }else if(esp.order$name == "Megaloptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 4
+          }
+        }else if(esp.order$name == "Coleoptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 5
+          }
+        }else if(esp.order$name == "Lepidoptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 5
+          }
+        }else if(esp.order$name == "Odonata"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 5
+          }
+        }else if(esp.order$name == "Diptera"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 5
+          }
+        }else if(esp.order$name == "Decapoda"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 6
+          }
+        }else if(esp.order$name == "Amphipoda"){
+          if(is.na(taxonomie[i,8])){
+            taxonomie[i,8] <- 6
+          }
         }
       }
       
@@ -114,12 +187,24 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
       if(any(esp[[2]] == "class")){
         esp.class <- subset(esp,esp[[2]] == "class")
         taxonomie[i,2] <- esp.class$name
+        
+        if(esp.class$name == "Ostracoda"){
+          taxonomie[i,8] <- 6
+        }
       }
       
       # si phylum est present stock dans taxonomie
       if(any(esp[[2]] == "phylum")){
         esp.phylum <- subset(esp,esp[[2]] == "phylum")
         taxonomie[i,1] <- esp.phylum$name
+        
+        if(esp.phylum$name == "Nemertea"){
+          taxonomie[i,8] <- 6
+        }else if(esp.phylum$name == "Nematoda"){
+          taxonomie[i,8] <- 5
+        }else if(esp.phylum$name == "Annelida"){
+          taxonomie[i,8] <- 8
+        }
       }
       
       # Determine le niveau taxonomique de l'identification
@@ -140,6 +225,7 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
         taxonomie[i,5] <- "Caecidota"
         taxonomie[i,6] <- "genus"
         taxonomie[i,7] <- list.esp[i]
+        taxonomie[i,8] <- 5
       }else{
         print(paste("Espece non trouver :", list.esp[i]))
         taxonomie[i,1] <- NA
