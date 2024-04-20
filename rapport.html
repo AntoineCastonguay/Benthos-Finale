@@ -357,9 +357,15 @@ display: none;
 </div>
 
 
+<<<<<<< HEAD
+<pre class="r"><code>library(ggplot2)</code></pre>
+<pre><code>## Warning: le package &#39;ggplot2&#39; a été compilé avec la version R 4.3.3</code></pre>
+<pre class="r"><code>list.res &lt;- tar_read(graph)
+=======
 <pre class="r"><code>library(ggplot2)
 
 list.res &lt;- tar_read(graph)
+>>>>>>> c7e542fbf6b3cd07c7ef4454736386fb68194d03
 # barplot(height = list.res[[1]]$abondance_moyenne,names.arg = list.res[[1]]$site_ab,las = 2)
 
 data &lt;- data.frame(x = list.res[[1]]$site_ab, y = round(list.res[[1]]$abondance_moyenne))
