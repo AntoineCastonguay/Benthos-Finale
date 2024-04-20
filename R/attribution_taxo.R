@@ -178,7 +178,7 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
           }
         }else if(esp.order$name == "Amphipoda"){
           if(is.na(taxonomie[i,8])){
-            taxonomie[i,8] <- 6
+            taxonomie[i,8] <- 7
           }
         }
       }
@@ -189,7 +189,7 @@ attribution.taxo <- function(benthos, esp.info, list.esp){
         taxonomie[i,2] <- esp.class$name
         
         if(esp.class$name == "Ostracoda"){
-          taxonomie[i,8] <- 6
+          taxonomie[i,8] <- 8
         }
       }
       
