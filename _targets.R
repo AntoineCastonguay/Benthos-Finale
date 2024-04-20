@@ -17,12 +17,12 @@ source("R/req_SQL.R")
 # pipeline
 list(
   tar_target(
-    benthos,
+    benthos.brut,
     read.dossier()
   ),
   tar_target(
     benthos.noNA,
-    colNA(benthos)
+    colNA(benthos.brut)
   ),
   tar_target(
     benthos.normT,
