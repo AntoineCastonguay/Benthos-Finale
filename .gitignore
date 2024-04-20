@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+benthos.db
+_targets/meta/meta
