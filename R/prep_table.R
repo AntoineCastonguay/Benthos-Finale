@@ -18,7 +18,7 @@ prep.table <- function(benthos, taxonomie){
                           abondance = benthos$abondance)
   
   # Garde juste les entré différente
-  benthos.cond <- benthos %>% distinct(date, .keep_all = TRUE)
+  benthos.cond <- benthos %>% distinct(site,date, .keep_all = TRUE)
   
   site <- data.frame(date = benthos.cond$date,     
                      site = benthos.cond$site,
