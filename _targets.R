@@ -47,6 +47,6 @@ list(
   ),
   tar_render(
     rapport,
-    path ="rapport.Rmd"
+    path ="Rapport BIO500/Rapport BIO500.Rmd"
   )
 )
