@@ -18,8 +18,17 @@ source("R/req_SQL.R")
 # pipeline
 list(
   tar_target(
+    path,
+    command = "./data",
+    format = "file"
+  ),
+  tar_target(
+    file_paths,
+    command = list.files(path, pattern = "\\.csv$", full.names = TRUE)
+  ),
+  tar_target(
     benthos.brut,
-    read.dossier()
+    read.dossier(file_paths)
   ),
   tar_target(
     benthos.noNA,

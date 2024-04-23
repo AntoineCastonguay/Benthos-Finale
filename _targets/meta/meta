@@ -1,15 +1,17 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-benthos.brut|stem|106cd5bdbef29fbe|c112965ed883393f|49f123dc53c98fa7|1968680751||t19834.6682095358s|b024ce6320606816|10398|rds|local|vector|||0.17||
+benthos.brut|stem|106cd5bdbef29fbe|018d1f00de889e6b|f05513fd1350a08a|1968680751||t19836.2074681502s|b024ce6320606816|10398|rds|local|vector|||0.131||
 benthos.clean|stem|666dc95c024e74b9|566d1df0d5784fe3|b77f1645ed604204|1936596685||t19834.668227266s|2728f2c9e597b49c|9682|rds|local|vector|||0.121||
 benthos.noNA|stem|48141d8c5c0d4871|aa3658f14bbba2cd|ad47e67a0a6adcb3|1825371190||t19834.668210451s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.012||
 colNA|function|8cf4f81d5ef45fb3|||||||||||||||
 database|stem|974a459ed5b8a044|0850fc2ae5328312|5bb70451b1b55c4a|-1234778454|benthos.db|t19836.1594669382s|b04ac78b1535f33f|241664|file|local|vector|||0.112|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+file_paths|stem|a70df5390ef7693f|2eb875224e05cde4|b7059cd142888bd2|-2123061052||t19836.2074665212s|2cabad3ee722f40e|486|rds|local|vector|||0.001||
 graph|stem|238831177397c641|8f92b21798f2967a|4b2f306a1c2e9301|-1406331997||t19836.1582608504s|de32d31adcb9aa43|1105|rds|local|vector|||0.037||
 la.taxonomie|function|b80f832def209c9c|||||||||||||||
 nettoyer|function|26b7b5fd0ebad7a1|||||||||||||||
+path|stem|e962af29a4fe53c7|2aa68212adf25336|ef46db3751d8e999|-546558945|./data|t19827.7791049004s|6744d789078e1a7c|357517|file|local|vector|||0||
 prep.table|function|f5053b128d7321da|||||||||||||||
 rapport|stem|59acdf158a43d594|213d64cd97ae8c6d|84bedf1e6b6d9876|-1091829359|rapport.html*rapport.Rmd|t19836.1594822251s|2c038e692dca2ac6|951487|file|local|vector|||1.356||
-read.dossier|function|615e7f868924284d|||||||||||||||
+read.dossier|function|7a1bc59fc8c1d7f6|||||||||||||||
 SQL|stem|976b5984c138c56f|0850fc2ae5328312|ce5ff8ed926d31b5|706419165||t19834.6693970096s|ac45463db19e2cbe|48|rds|local|vector|||0.105|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
 SQL.get|function|e28aeebc51da1f5f|||||||||||||||
 SQL.make|function|9948615e0e00a479|||||||||||||||
