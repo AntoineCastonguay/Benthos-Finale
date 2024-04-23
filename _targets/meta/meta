@@ -1,4 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+<<<<<<< HEAD
 <<<<<<< HEAD|||||||||||||||||
 =======|||||||||||||||||
 >>>>>>> b50371fdd7fa39eca16737349d00382f5c246d8e|||||||||||||||||
@@ -10,9 +11,20 @@ benthos.noNA|stem|a93983783d62f0a2|aa3658f14bbba2cd|636f95da4a202ac6|1852897296|
 benthos.normT|stem|4cf4997ee88b2a69|7a0969f549b2a457|1f369247e5d7b296|-291441157||t19833.7280054257s|256f8684626b156a|9689|rds|local|vector|||1.01||
 colNA|function|8cf4f81d5ef45fb3|||||||||||||||
 graph|stem|8066ad2466037a50|9564b7fcf22f769d|dbedeeb0750407e2|-11234161||t19833.8932247462s|dc02e3f88d250af0|1019|rds|local|vector|||0.02||
+=======
+benthos.brut|stem|106cd5bdbef29fbe|018d1f00de889e6b|f05513fd1350a08a|1968680751||t19836.2074681502s|b024ce6320606816|10398|rds|local|vector|||0.131||
+benthos.clean|stem|666dc95c024e74b9|566d1df0d5784fe3|b77f1645ed604204|1936596685||t19834.668227266s|2728f2c9e597b49c|9682|rds|local|vector|||0.121||
+benthos.noNA|stem|48141d8c5c0d4871|aa3658f14bbba2cd|ad47e67a0a6adcb3|1825371190||t19834.668210451s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.012||
+colNA|function|8cf4f81d5ef45fb3|||||||||||||||
+database|stem|974a459ed5b8a044|0850fc2ae5328312|5bb70451b1b55c4a|-1234778454|benthos.db|t19836.1594669382s|b04ac78b1535f33f|241664|file|local|vector|||0.112|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+file_paths|stem|a70df5390ef7693f|2eb875224e05cde4|b7059cd142888bd2|-2123061052||t19836.2074665212s|2cabad3ee722f40e|486|rds|local|vector|||0.001||
+graph|stem|238831177397c641|8f92b21798f2967a|4b2f306a1c2e9301|-1406331997||t19836.1582608504s|de32d31adcb9aa43|1105|rds|local|vector|||0.037||
+>>>>>>> 748dfd3e335ceb5135b07cb0530f6ab531c331e3
 la.taxonomie|function|b80f832def209c9c|||||||||||||||
 nettoyer|function|26b7b5fd0ebad7a1|||||||||||||||
+path|stem|e962af29a4fe53c7|2aa68212adf25336|ef46db3751d8e999|-546558945|./data|t19827.7791049004s|6744d789078e1a7c|357517|file|local|vector|||0||
 prep.table|function|f5053b128d7321da|||||||||||||||
+<<<<<<< HEAD
 rapport|stem|02a3652c02931218|213d64cd97ae8c6d|e48913b4f87ccd0b|-1266156412|rapport.html*rapport.Rmd|t19833.8932343033s|94ea678e5acce0bd|626187|file|local|vector|||0.97||
 read.dossier|function|615e7f868924284d|||||||||||||||
 SQL|stem|2a59d22ca4fcc05e|0850fc2ae5328312|7a1baeead6fbf7e3|1000660553||t19833.8932447583s|ac45463db19e2cbe|48|rds|local|vector|||0.11|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
@@ -20,3 +32,12 @@ SQL.get|function|8a8498a4a2b04b52|||||||||||||||
 SQL.make|function|90fad0f8d37c2032|||||||||||||||
 table|stem|c367e2cc0908d92e|7b314a3b69722f22|6d6388764916b441|974367663||t19833.8932434211s|ba002d9f062b513f|11132|rds|local|vector|||0||
 taxo|stem|b38f97a88578c26f|191ba77079c7073a|918f0f6c2b973226|-1810004822||t19833.8932431317s|2018e1854463aeab|2799|rds|local|vector|||0.58||
+=======
+rapport|stem|59acdf158a43d594|213d64cd97ae8c6d|84bedf1e6b6d9876|-1091829359|rapport.html*rapport.Rmd|t19836.1594822251s|2c038e692dca2ac6|951487|file|local|vector|||1.356||
+read.dossier|function|7a1bc59fc8c1d7f6|||||||||||||||
+SQL|stem|976b5984c138c56f|0850fc2ae5328312|ce5ff8ed926d31b5|706419165||t19834.6693970096s|ac45463db19e2cbe|48|rds|local|vector|||0.105|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+SQL.get|function|e28aeebc51da1f5f|||||||||||||||
+SQL.make|function|9948615e0e00a479|||||||||||||||
+table|stem|3992106b0ba5b324|7b314a3b69722f22|ad22a45b0615d7a6|-1456044290||t19834.6693957457s|ba002d9f062b513f|11132|rds|local|vector|||0.016||
+taxo|stem|cf8353eee7240554|191ba77079c7073a|ae58b4c41436a9d2|-1700379017||t19834.6693954357s|2018e1854463aeab|2799|rds|local|vector|||1.336||
+>>>>>>> 748dfd3e335ceb5135b07cb0530f6ab531c331e3
