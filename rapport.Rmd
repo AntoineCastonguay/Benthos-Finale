@@ -33,6 +33,7 @@ text(plt, par("usr")[3], labels = pollution.rivieres$categorie_pollution, srt = 
 ```
 
 ```{r}
+# Aquisition des donnees des niveau de pollution des rivieres en fonction sa richeese.
 richesse.pollution <- list.res[[2]]
 
 plot(richesse.pollution$HBI,richesse.pollution$richesse,
@@ -42,6 +43,7 @@ abline(lm(richesse.pollution$richesse ~ richesse.pollution$HBI))
 ```
 
 ```{r}
+# Aquisition des donnees des niveau de pollution des rivieres.
 matrice <- list.res[[3]]
 
 plot(matrice$temperature_eau_c,matrice$richesse,
