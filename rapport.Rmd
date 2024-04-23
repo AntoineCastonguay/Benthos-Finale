@@ -6,8 +6,7 @@ output: html_document
 ---
 
 Introduction : 
-Les invertébrés benthiques, habitants des fonds aquatiques, jouent un rôle crucial dans les écosystèmes fluviaux en tant qu'indicateurs de la qualité de l'eau et de la santé des habitats. Dans les rivières du Québec, ces organismes constituent une composante essentielle de la biodiversité et sont largement étudiés pour évaluer l'état écologique des cours d'eau. Parmi les indices utilisés pour évaluer la santé des écosystèmes aquatiques, l'Indice biotique d’Hilsenhoff (HBI) se démarque comme un outil précieux, basé sur la sensibilité des invertébrés benthiques aux perturbations environnementales. En combinant des données sur la richesse spécifique et la composition taxonomique des communautés d'invertébrés benthiques, l'HBI fournit des informations importantes sur la qualité de l'eau et les impacts des activités humaines sur les écosystèmes aquatiques. Cette étude vise à examiner 
-
+Les invertébrés benthiques, habitants des fonds aquatiques, jouent un rôle crucial dans les écosystèmes fluviaux en tant qu'indicateurs de la qualité de l'eau et de la santé des habitats. Dans les rivières du Québec, ces organismes constituent une composante essentielle de la biodiversité et sont largement étudiés pour évaluer l'état écologique des cours d'eau. Parmi les indices utilisés pour évaluer la santé des écosystèmes aquatiques, l'Indice biotique d’Hilsenhoff (HBI) se démarque comme un outil précieux, basé sur la sensibilité des invertébrés benthiques aux perturbations environnementales. En combinant des données sur la richesse spécifique et la composition taxonomique des communautés d'invertébrés benthiques, l'HBI fournit des informations importantes sur la qualité de l'eau et les impacts des activités humaines sur les écosystèmes aquatiques. Cette étude vise à examiner la possibilité qu'il y ait des liens entre différents facteurs écologiques. Trois relations ont été étudiés soit le niveau de pollution (HBI) et l'abondance de chaque site, la richesse d'un site et son niveau de pollution et la température de l'eau et la richesse du site. 
 Méthode : 
 Les relevés du benthos sont effectués au moyen d'un filet à mailles fines (D-net), qui est traîné à trois reprises le long du fond de la rivière. L'effort d'échantillonnage est standardisé à 3 mètres carrés. Les échantillons sont ensuite transportés au laboratoire où ils sont étalés sur des plateaux de tri de type « Bogorov », permettant l'identification et le dénombrement des espèces. Seule une fraction de l'échantillon est analysée. L'abondance des espèces est calculée en fonction du nombre d'individus trouvés dans l'échantillon et de la fraction analysée.
 
@@ -31,7 +30,7 @@ plt <- barplot(height = pollution.rivieres$nombre_rivieres, space=0.3,
                col='steelblue', xaxt="n")
 text(plt, par("usr")[3], labels = pollution.rivieres$categorie_pollution, srt = 35, adj = c(1.1,1.1), xpd = TRUE, cex=0.7)
 ```
-
+L'indice de pollution HBI des rivières échantillonnées se retrouve toutes entre la cote moyenne et excellente. La cote très bonne est est celle avec le plus grand nombre de sites soit (17?? je n'ai pas trouvé les nouveaux tableaux avec les données alors, j'ai mis un ? en il faut une donnée. Désolée encore :( ) tandis que la cote moyenne est celle qui a le plus petit nombre de sites soit (4??). En moyenne, les sites d'échantillonnage se situe entre la cote bonne et très bonne. 
 ```{r}
 richesse.pollution <- list.res[[2]]
 
@@ -40,7 +39,7 @@ plot(richesse.pollution$HBI,richesse.pollution$richesse,
      xlab="Pollution (HBI)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
 abline(lm(richesse.pollution$richesse ~ richesse.pollution$HBI))
 ```
-
+il ne semble pas y avoir de lien entre le niveau de pollution (HBI) et le nombre d'espèces. Il y a des sites avec une bonne richesse et un niveau de pollution faible comme il y a des sites avec une bonne richesse et un niveau de pollution plus élevé. c'est aussi le cas pour les sites avec une moins bonne richesse. Cependant, le site avec la plus grande richesse est à un niveau de pollution de (?) tandis que le site avec la moins bonne richesse à un niveau de (?) sur l'échelle de HBI. Le site avec le niveau de pollution le plus élevé à une meilleure diverssité d'espèces soit (?) que le site avec le niveau de pollution le plus bas qui en a (?).
 ```{r}
 matrice <- list.res[[3]]
 
@@ -49,4 +48,15 @@ plot(matrice$temperature_eau_c,matrice$richesse,
      xlab="Température (ºC)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
 abline(lm(matrice$richesse ~ matrice$temperature_eau_c))
 ```
+Les résultats varient beaucoup. La température du le site avec le plus grand nombre d'espèces est de (?) tandis que celle du site avec la plus basse richesse est de (?). Le site avec la plus haute température compte (?) espèces tandis que le site avec la plus basse en compte (?).
+
+Discussion:
+
+
+
+
+
+
+
+
 
