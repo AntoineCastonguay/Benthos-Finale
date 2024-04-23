@@ -383,8 +383,14 @@ fraction analysée.</p>
 <p>Ce protocole est détaillé dans le document intitulé Protocole
 d’échantillonnage des macroinvertébrés benthiques d’eau douce du
 Québec.</p>
+<<<<<<< HEAD
 <pre class="r"><code>library(targets)
 library(tarchetypes)</code></pre>
+=======
+<pre class="r"><code>library(targets)</code></pre>
+<pre><code>## Warning: le package &#39;targets&#39; a été compilé avec la version R 4.3.3</code></pre>
+<pre class="r"><code>library(tarchetypes)</code></pre>
+>>>>>>> 8643297b870e6bec2773d682c04f335b1370f622
 <pre class="r"><code>list.res &lt;- tar_read(graph)</code></pre>
 <pre class="r"><code># Aquisition des donnees des niveau de pollution des rivieres.
 pollution.rivieres &lt;- list.res[[1]]

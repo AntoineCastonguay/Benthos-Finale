@@ -1,7 +1,7 @@
 # Fonction lier a la taxonomie 
 
 # Charger la bibliothèque taxize pour la fonction taxo
-library(taxize)
+#library(taxize)
 # file.edit("~/R-projet/.Renviron")
 # Necessaire pour grand volume d'analyse avec taxize
 # Ecrire dans le .Renviron : ENTREZ_KEY=***
