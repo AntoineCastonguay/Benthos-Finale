@@ -5,29 +5,30 @@ date: "2024-04-15"
 output: html_document
 ---
 ```{r}
-library(ggplot2)
+library(targets)
+library(tarchetypes)
 
 list.res <- tar_read(graph)
-# # barplot(height = list.res[[1]]$abondance_moyenne,names.arg = list.res[[1]]$site_ab,las = 2)
-# 
-# data <- data.frame(x = list.res[[1]]$site_ab, y = round(list.res[[1]]$abondance_moyenne))
-# ggplot(data, aes(x, y)) +
-#   geom_bar(stat = "identity") +
-#   geom_text(aes(label = y), vjust = -0.5, size = 3) +
-#   theme(axis.text.x = element_text(angle = 45, size = 8, hjust = 1)) +
-#   scale_fill_brewer(palette = "Set3") +
-#   labs(title = "Graphique à barres", x = "Axe X", y = "Axe Y")
-# 
-# # barplot(height = list.res[[2]]$average_count,names.arg = list.res[[2]]$site_ab, las=2)
-# 
-# data <- data.frame(x = list.res[[2]]$site_ab, y = round(list.res[[2]]$average_count))
-# ggplot(data, aes(x, y)) +
-#   geom_bar(stat = "identity") +
-#   geom_text(aes(label = y), vjust = -0.5, size = 3) +
-#   theme(axis.text.x = element_text(angle = 45, size = 8, hjust = 1)) +
-#   scale_fill_brewer(palette = "Set3") +
-#   labs(title = "Graphique à barres", x = "Axe X", y = "Axe Y")
-# 
-# barplot(height = list.res[[3]]$abondance_moyenne,names.arg = list.res[[3]]$transparence_eau)
+pollution.rivieres <- list.res[[1]]
+
+plt <- barplot(height = pollution.rivieres$nombre_rivieres, space=0.3,
+               main = "Distribution des rivières selon leur niveau de pollution",
+               col='steelblue', xaxt="n")
+text(plt, par("usr")[3], labels = pollution.rivieres$categorie_pollution, srt = 35, adj = c(1.1,1.1), xpd = TRUE, cex=0.7)
+
+richesse.pollution <- list.res[[2]]
+
+plot(richesse.pollution$HBI,richesse.pollution$richesse,
+     main="Impact de la pollution sur la richesse spécique des rivières",
+     xlab="Pollution (HBI)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
+abline(lm(richesse.pollution$richesse ~ richesse.pollution$HBI))
+
+matrice <- list.res[[3]]
+
+plot(matrice$temperature_eau_c,matrice$richesse,
+     main="Impact de la température des rivières sur leur richesse spécique",
+     xlab="Température (ºC)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
+
+abline(lm(matrice$richesse ~ matrice$temperature_eau_c))
 ```
 
