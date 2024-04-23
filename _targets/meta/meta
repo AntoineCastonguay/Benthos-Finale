@@ -15,9 +15,9 @@ file_paths|stem|0fe1fa93c5bcdfd6|2eb875224e05cde4|ce7fdc910c766d5d|-1262214154||
 graph|stem|10053645d017c9c5|8f92b21798f2967a|df6c26dd3b5aa0e9|-11234161||t19836.7663314879s|de32d31adcb9aa43|1105|rds|local|vector|||0.03||
 la.taxonomie|function|b80f832def209c9c|||||||||||||||
 nettoyer|function|26b7b5fd0ebad7a1|||||||||||||||
-path|stem|1fbb45a0791ba68b|2aa68212adf25336|ef46db3751d8e999|1488123031|./data|t19827.6138359663s|c52fedf4e8e7abe0|359637|file|local|vector|||0||
+path|stem|1fbb45a0791ba68b|2aa68212adf25336|ef46db3751d8e999|1488123031|./data|t19833.6972717477s|d02d39acea725c6e|28672|file|local|vector|||0||
 prep.table|function|f5053b128d7321da|||||||||||||||
-rapport|stem|e5b9bccbcb9b23f4|213d64cd97ae8c6d|9094b996307274d3|-1266156412|rapport.html*rapport.Rmd|t19836.7663526586s|8c8f030e7076e7fc|693510|file|local|vector|||2||
+rapport|stem|e5b9bccbcb9b23f4|aa0b28dbc6a70e5d|ef46db3751d8e999|-1266156412|rapport.html*rapport.Rmd|t19836.7663526586s||693510|file|local|vector|||67.94||LaTeX failed to compile RapportBIO500.tex. See httpsyihui.orgtinytexrdebugging for debugging tips. See RapportBIO500.log for more info.
 read.dossier|function|7a1bc59fc8c1d7f6|||||||||||||||
 SQL|stem|976b5984c138c56f|0850fc2ae5328312|ce5ff8ed926d31b5|706419165||t19834.6693970096s|ac45463db19e2cbe|48|rds|local|vector|||0.105|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
 SQL.get|function|e28aeebc51da1f5f|||||||||||||||
