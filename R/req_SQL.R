@@ -1,7 +1,10 @@
+# Fonction qui va chercher les données nécessaires à l'analyse et la production de 3 figures
+
 SQL.get <- function(database) {
   
   con <- dbConnect(SQLite(), dbname=database)
   
+  # Première requête calcule le nombre de rivières par niveau de pollution
   req <- 
   "WITH abondances_par_echantillonnage AS (
 			SELECT 
@@ -54,6 +57,7 @@ SQL.get <- function(database) {
   
   res <- dbGetQuery(con, req)
   
+  # Deuxième requête calcule la richesse moyenne de chaque site et son indice de pollution moyen
   req2 <- 
 "SELECT site_ab, AVG(parDate.richesse) AS richesse, AVG(sc) AS HBI
 FROM
@@ -97,6 +101,7 @@ ORDER BY site_ab"
   
   res2 <- dbGetQuery(con, req2)
   
+  # La troisième requête calcule le nombre de taxons distincts moyen pour chaque rivière, ainsi que sa température moyenne
   req3 <- 
     "WITH 
 			richesse_par_echantillonnage AS (
