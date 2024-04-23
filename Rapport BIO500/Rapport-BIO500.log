@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.20)  20 APR 2024 16:31
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.23)  23 APR 2024 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,25 +24,67 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
+) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+)) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
-)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 357.
+(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
 \tipaTiiicode=\count192
 \tipasavetokens=\toks18
 \tipachecktokens=\toks19
@@ -358,9 +400,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen182
 )
 \onelineskip=\skip64
-(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/linguex/linguex.sty
-Package: linguex 2013/05/28 Example formatting for linguistics v. 4.3
-(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/gb4e/cgloss4e.sty
+(./cgloss.sty
 \lineone=\box60
 \linetwo=\box61
 \linethree=\box62
@@ -369,43 +409,6 @@ Package: linguex 2013/05/28 Example formatting for linguistics v. 4.3
 \wordthree=\box65
 \gline=\box66
 \glossglue=\skip65
-)
-\c@ExNo=\count300
-\c@SubExNo=\count301
-\c@SubSubExNo=\count302
-\c@FnExNo=\count303
-\c@ABC=\count304
-\currentlabel=\skip66
-\lessthanten=\skip67
-\lessthanhundred=\skip68
-\lessthanthousand=\skip69
-\@Exleftmargin=\skip70
-\Exlabelwidth=\skip71
-\Extopsep=\skip72
-\Exindent=\skip73
-\SubExleftmargin=\skip74
-\SubSubExleftmargin=\skip75
-\Exlabelsep=\skip76
-\alignSubExnegindent=\skip77
-\Exredux=\skip78
-\digitwidth=\skip79
-\mindigitwidth=\skip80
-\c@ExDepth=\count305
-\c@TempExDepth=\count306
-\CollectTokens=\toks30
-LaTeX Info: Redefining \b on input line 307.
-LaTeX Info: Redefining \c on input line 311.
-LaTeX Info: Redefining \d on input line 313.
-\c@tmpaEx=\count307
-) (./cgloss.sty
-\lineone=\box67
-\linetwo=\box68
-\linethree=\box69
-\wordone=\box70
-\wordtwo=\box71
-\wordthree=\box72
-\gline=\box73
-\glossglue=\skip81
 )) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xyling/xyling.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xy.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes, docmode, (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyrecat.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyidioms.tex)
 
  Xy-pic version 3.8.9 <2013/10/06>
@@ -419,14 +422,14 @@ Loading kernel: messages; fonts; allocations: state,
 \D@c=\dimen186
 \L@c=\dimen187
 \R@c=\dimen188
-\Edge@c=\toks31
+\Edge@c=\toks30
 \X@p=\dimen189
 \Y@p=\dimen190
 \U@p=\dimen191
 \D@p=\dimen192
 \L@p=\dimen193
 \R@p=\dimen194
-\Edge@p=\toks32
+\Edge@p=\toks31
 \X@origin=\dimen195
 \Y@origin=\dimen196
 \X@xbase=\dimen197
@@ -437,32 +440,32 @@ Loading kernel: messages; fonts; allocations: state,
 \Y@min=\dimen258
 \X@max=\dimen259
 \Y@max=\dimen260
-\lastobjectbox@=\box74
-\zerodotbox@=\box75
+\lastobjectbox@=\box67
+\zerodotbox@=\box68
 \almostz@=\dimen261
 direction,
 \d@X=\dimen262
 \d@Y=\dimen263
-\K@=\count308
-\KK@=\count309
-\Direction=\count310
+\K@=\count300
+\KK@=\count301
+\Direction=\count302
 \K@dXdY=\dimen264
 \K@dYdX=\dimen265
 \xyread@=\read2
 \xywrite@=\write3
-\csp@=\count311
+\csp@=\count303
 \quotPTK@=\dimen266
 utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks33
-\connectobjectbox@@=\box76
+\swaptoks@@=\toks32
+\connectobjectbox@@=\box69
 objects,
-\styletoks@=\toks34
+\styletoks@=\toks33
 decorations; kernel objects: directionals, circles, text; options; algorithms: directions, edges, connections;  Xy-pic loaded)
 Package: xy 2013/10/06 Xy-pic version 3.8.9
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xydvips.tex  Xy-pic option: DVIPS driver v.3.9 loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps.tex  Xy-pic option: PostScript backend v.3.12 drivers, hooks, loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xycolor.tex  Xy-pic option: Colour extension v.3.11 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-c.tex (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-s.tex)) loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyall.tex  Xy-pic option: All features v.3.8 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xycurve.tex  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count312
-\crvpts@=\toks35
-\splinebox@=\box77
+\crv@cnt@=\count304
+\crvpts@=\toks34
+\splinebox@=\box70
 \splineval@=\dimen267
 \splinedepth@=\dimen268
 \splinetol@=\dimen269
@@ -472,26 +475,26 @@ circles,
 loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyframe.tex  Xy-pic option: Frame and Bracket extension v.3.14 loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xycmtip.tex  Xy-pic option: Computer Modern tip extension v.3.7 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xytips.tex  Xy-pic option: More Tips extension v.3.11 loaded) loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyline.tex  Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen272
 loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyrotate.tex  Xy-pic option: Rotate and Scale extension v.3.8 loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xymatrix.tex  Xy-pic option: Matrix feature v.3.14
-\Row=\count313
-\Col=\count314
-\queue@=\toks36
-\queue@@=\toks37
-\qcount@=\count315
-\qcount@@=\count316
-\matrixsize@=\count317
+\Row=\count305
+\Col=\count306
+\queue@=\toks35
+\queue@@=\toks36
+\qcount@=\count307
+\qcount@@=\count308
+\matrixsize@=\count309
 loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyarrow.tex  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xygraph.tex  Xy-pic option: Graph feature v.3.11 loaded) loaded)) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xycrayon.tex  Xy-pic option: Crayola Colours v.3.7 loaded)
-\c@PXcnt=\count318
-\TXTwidth=\skip82
-\GLOSSwidth=\skip83
-\PGwidth=\skip84
+\c@PXcnt=\count310
+\TXTwidth=\skip66
+\GLOSSwidth=\skip67
+\PGwidth=\skip68
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/forest/forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks38
+\pgfutil@everybye=\toks37
 \pgfutil@tempdima=\dimen273
 \pgfutil@tempdimb=\dimen274
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box78
+\pgfutil@abb=\box71
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -499,10 +502,10 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks40
 ))
 \pgf@x=\dimen275
 \pgf@y=\dimen276
@@ -516,14 +519,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen284
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count319
-\c@pgf@countb=\count320
-\c@pgf@countc=\count321
-\c@pgf@countd=\count322
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count323
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count315
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -535,24 +538,24 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count324
+\pgfsys@objnum=\count316
 ))) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count325
-\pgfsyssoftpath@bigbuffer@items=\count326
+\pgfsyssoftpath@smallbuffer@items=\count317
+\pgfsyssoftpath@bigbuffer@items=\count318
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen285
-\pgfmath@count=\count327
-\pgfmath@box=\box79
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@count=\count319
+\pgfmath@box=\box72
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count328
+\c@pgfmathroundto@lastzeros=\count320
 )) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen286
@@ -579,10 +582,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@start@additional=\dimen303
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box80
-\pgf@hbox=\box81
-\pgf@layerbox@main=\box82
-\pgf@picture@serial@count=\count329
+\pgfpic=\box73
+\pgf@hbox=\box74
+\pgf@layerbox@main=\box75
+\pgf@picture@serial@count=\count321
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen304
@@ -603,13 +606,13 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen309
-\pgf@sys@shading@range@num=\count330
-\pgf@shadingcount=\count331
+\pgf@sys@shading@range@num=\count322
+\pgf@shadingcount=\count323
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box83
+\pgfexternal@startupbox=\box76
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -620,7 +623,7 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box84
+\pgfnodeparttextbox=\box77
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
@@ -633,13 +636,13 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen312
 \pgffor@skip=\dimen313
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 )) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count332
+\pgf@plot@mark@count=\count324
 \pgfplotmarksize=\dimen314
 )
 \tikz@lastx=\dimen315
@@ -650,21 +653,21 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen320
 \tikzleveldistance=\dimen321
 \tikzsiblingdistance=\dimen322
-\tikz@figbox=\box85
-\tikz@figbox@bg=\box86
-\tikz@tempbox=\box87
-\tikz@tempbox@bg=\box88
-\tikztreelevel=\count333
-\tikznumberofchildren=\count334
-\tikznumberofcurrentchild=\count335
-\tikz@fig@count=\count336
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count325
+\tikznumberofchildren=\count326
+\tikznumberofcurrentchild=\count327
+\tikz@fig@count=\count328
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count337
-\pgfmatrixcurrentcolumn=\count338
-\pgf@matrix@numberofcolumns=\count339
+\pgfmatrixcurrentrow=\count329
+\pgfmatrixcurrentcolumn=\count330
+\pgf@matrix@numberofcolumns=\count331
 )
-\tikz@expandcount=\count340
+\tikz@expandcount=\count332
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
@@ -689,36 +692,36 @@ File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box89
-\pgfnodeparttwobox=\box90
-\pgfnodepartthreebox=\box91
-\pgfnodepartfourbox=\box92
-\pgfnodeparttwentybox=\box93
-\pgfnodepartnineteenbox=\box94
-\pgfnodeparteighteenbox=\box95
-\pgfnodepartseventeenbox=\box96
-\pgfnodepartsixteenbox=\box97
-\pgfnodepartfifteenbox=\box98
-\pgfnodepartfourteenbox=\box99
-\pgfnodepartthirteenbox=\box100
-\pgfnodeparttwelvebox=\box101
-\pgfnodepartelevenbox=\box102
-\pgfnodeparttenbox=\box103
-\pgfnodepartninebox=\box104
-\pgfnodeparteightbox=\box105
-\pgfnodepartsevenbox=\box106
-\pgfnodepartsixbox=\box107
-\pgfnodepartfivebox=\box108
+\pgfnodepartlowerbox=\box82
+\pgfnodeparttwobox=\box83
+\pgfnodepartthreebox=\box84
+\pgfnodepartfourbox=\box85
+\pgfnodeparttwentybox=\box86
+\pgfnodepartnineteenbox=\box87
+\pgfnodeparteighteenbox=\box88
+\pgfnodepartseventeenbox=\box89
+\pgfnodepartsixteenbox=\box90
+\pgfnodepartfifteenbox=\box91
+\pgfnodepartfourteenbox=\box92
+\pgfnodepartthirteenbox=\box93
+\pgfnodeparttwelvebox=\box94
+\pgfnodepartelevenbox=\box95
+\pgfnodeparttenbox=\box96
+\pgfnodepartninebox=\box97
+\pgfnodeparteightbox=\box98
+\pgfnodepartsevenbox=\box99
+\pgfnodepartsixbox=\box100
+\pgfnodepartfivebox=\box101
 ))) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count341
+\pgf@intersect@solutions=\count333
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks50
-\pgfopts@list@add@b@toks=\toks51
+\pgfopts@list@add@a@toks=\toks49
+\pgfopts@list@add@b@toks=\toks50
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
@@ -729,144 +732,148 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: expl3 2024-03-14 L3 programming layer (loader) 
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-03-14 L3 backend support: XeTeX
-\g__graphics_track_int=\count342
-\l__pdf_internal_box=\box109
-\g__pdf_backend_object_int=\count343
-\g__pdf_backend_annotation_int=\count344
-\g__pdf_backend_link_int=\count345
+\g__graphics_track_int=\count334
+\l__pdf_internal_box=\box102
+\g__pdf_backend_object_int=\count335
+\g__pdf_backend_annotation_int=\count336
+\g__pdf_backend_link_int=\count337
 ))
 Package: xparse 2024-03-14 L3 Experimental document command parser
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/inlinedef/inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
-\ID@toks=\toks52
-\ID@count=\count346
+\ID@toks=\toks51
+\ID@count=\count338
 )
-\ID@usercommands=\toks53
-\safeloop@depth=\count347
-\safeRKloop@depth=\count348
+\ID@usercommands=\toks52
+\safeloop@depth=\count339
+\safeRKloop@depth=\count340
 \forest@temp@dimen=\dimen323
-\forest@temp@count=\count349
-\forest@n=\count350
-\forest@temp@global@count=\count351
-\forest@temp@toks=\toks54
-\forest@temparray@M=\count352
-\forest@temparray@N=\count353
-\forest@global@temparray@M=\count354
-\forest@global@temparray@N=\count355
-\forest@isnum@count=\count356
-\forest@isdim@nonintpart=\count357
+\forest@temp@count=\count341
+\forest@n=\count342
+\forest@temp@global@count=\count343
+\forest@temp@toks=\toks53
+\forest@temparray@M=\count344
+\forest@temparray@N=\count345
+\forest@global@temparray@M=\count346
+\forest@global@temparray@N=\count347
+\forest@isnum@count=\count348
+\forest@isdim@nonintpart=\count349
 \forest@isdim@dimen=\dimen324
-\forest@sort@m=\count358
-\forest@sort@k=\count359
-\forest@sort@p=\count360
-\bracket@content=\toks55
-\bracket@afterthought=\toks56
-\forest@node@maxid=\count361
-\forest@process@left@M=\count362
-\forest@process@left@N=\count363
-\forest@process@right@M=\count364
-\forest@process@right@N=\count365
-\forest@process@saved@M=\count366
-\forest@process@saved@N=\count367
-\forest@process@result@M=\count368
-\forest@process@result@N=\count369
-\forest@process@n=\count370
-\forest@nodewalk@branch@toks=\toks57
-\forest@nodewalk@shortsteps@resolution=\toks58
-\forest@do@dynamics=\toks59
-\forest@box=\box110
+\forest@sort@m=\count350
+\forest@sort@k=\count351
+\forest@sort@p=\count352
+\bracket@content=\toks54
+\bracket@afterthought=\toks55
+\forest@node@maxid=\count353
+\forest@process@left@M=\count354
+\forest@process@left@N=\count355
+\forest@process@right@M=\count356
+\forest@process@right@N=\count357
+\forest@process@saved@M=\count358
+\forest@process@saved@N=\count359
+\forest@process@result@M=\count360
+\forest@process@result@N=\count361
+\forest@process@n=\count362
+\forest@nodewalk@branch@toks=\toks56
+\forest@nodewalk@shortsteps@resolution=\toks57
+\forest@do@dynamics=\toks58
+\forest@box=\box103
 \forest@xg=\dimen325
 \forest@yg=\dimen326
 \forest@xs=\dimen327
 \forest@ys=\dimen328
-\forest@pi@toks=\toks60
-\forest@segment@toks=\toks61
-\forest@PIi@toks=\toks62
-\forest@PIii@toks=\toks63
+\forest@pi@toks=\toks59
+\forest@segment@toks=\toks60
+\forest@PIi@toks=\toks61
+\forest@PIii@toks=\toks62
 \forest@copy@in=\read4
 \forest@copy@out=\write5
-\forest@externalize@max@outer@n=\count371
-\forest@externalize@inner@n=\count372
+\forest@externalize@max@outer@n=\count363
+\forest@externalize@inner@n=\count364
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/forest/forest-lib-linguistics.sty
 Package: forest-lib-linguistics 2017/07/14 v0.1.2
-\standardnodestrutbox=\box111
+\standardnodestrutbox=\box104
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip85
-\LTright=\skip86
-\LTpre=\skip87
-\LTpost=\skip88
-\LTchunksize=\count373
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count365
 \LTcapwidth=\dimen329
-\LT@head=\box112
-\LT@firsthead=\box113
-\LT@foot=\box114
-\LT@lastfoot=\box115
-\LT@gbox=\box116
-\LT@cols=\count374
-\LT@rows=\count375
-\c@LT@tables=\count376
-\c@LT@chunks=\count377
-\LT@p@ftn=\toks64
+\LT@head=\box105
+\LT@firsthead=\box106
+\LT@foot=\box107
+\LT@lastfoot=\box108
+\LT@gbox=\box109
+\LT@cols=\count366
+\LT@rows=\count367
+\c@LT@tables=\count368
+\c@LT@chunks=\count369
+\LT@p@ftn=\toks63
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen330
-\ar@mcellbox=\box117
+\ar@mcellbox=\box110
 \extrarowheight=\dimen331
-\NC@list=\toks65
-\extratabsurround=\skip89
-\backup@length=\skip90
-\ar@cellbox=\box118
+\NC@list=\toks64
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box111
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count378
-\calc@Bcount=\count379
+\calc@Acount=\count370
+\calc@Bcount=\count371
 \calc@Adimen=\dimen332
 \calc@Bdimen=\dimen333
-\calc@Askip=\skip91
-\calc@Bskip=\skip92
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count380
-\calc@Cskip=\skip93
+\calc@Ccount=\count372
+\calc@Cskip=\skip77
 ) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box119
+\fn@notes=\box112
 \fn@width=\dimen334
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 86.
+(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./Rapport-BIO500.aux)
 \openout1 = `Rapport-BIO500.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 86.
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 81.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 81.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 86.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 86.
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-Package hyperref Info: Link coloring ON on input line 81.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+Package hyperref Info: Link coloring ON on input line 86.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -875,38 +882,34 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-ps.tex)
 
-Xy-pic Warning: The produced DVI file is NOT PORTABLE [Rapport-BIO500:81]:
+Xy-pic Warning: The produced DVI file is NOT PORTABLE [Rapport-BIO500:86]:
  It contains <driver> `dvips' \specials for the `PostScript' extension.
 
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-col.tex) PS relaxed (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-r.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-l.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-f.tex)
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 85.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 90.
 (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xyps-pro.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xypspatt.tex) (c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xypic/xypsdict.tex) [1
 
-] [2]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 269.
-(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 269.
-(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3]
-File: glossa.png Graphic file (type bmp)
-<glossa.png>
-[4] [5] [6] [7] [8] [9] (./Rapport-BIO500.bbl [10]) [11] (./Rapport-BIO500.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
- ***********
- ) 
-Here is how much of TeX's memory you used:
- 40436 strings out of 476717
- 826624 string characters out of 5799453
- 1937148 words of memory out of 5000000
- 61853 multiletter control sequences out of 15000+600000
- 566998 words of font info for 96 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 98i,9n,101p,1612b,477s stack positions out of 10000i,1000n,20000p,200000b,200000s
+]
+Overfull \hbox (11.40045pt too wide) in paragraph at lines 209--213
+\T1/ptm/m/n/10.95 The au-thor is re-spon-si-ble for ob-tain-ing all per-mis-sions re-quired prior to sub-mis-sion of the manuscript.
+ []
 
-Output written on Rapport-BIO500.pdf (11 pages).
+[2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 275.
+(c:/Users/claud/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [3]
+! Undefined control sequence.
+l.316 \ex
+         . \ag. Ich   kenne das Kind, dem du geholfen hast.\\ 
+Here is how much of TeX's memory you used:
+ 40378 strings out of 476716
+ 824172 string characters out of 5799436
+ 1929148 words of memory out of 5000000
+ 61837 multiletter control sequences out of 15000+600000
+ 611353 words of font info for 69 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 98i,6n,101p,1612b,344s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Rapport-BIO500.pdf (3 pages).

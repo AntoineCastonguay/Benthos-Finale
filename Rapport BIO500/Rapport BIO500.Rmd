@@ -1,15 +1,13 @@
 ---
-title: This is a title and this is too
+title: Rapport de l'indice de pollution en lien avec la faune benthique.
 # Optional short title inside square brackets, for the running headers.
 shorttitle: A subtitle goes on another line
 shortauthors: Paul & Vanden Wyngaerd
 author:
-- name: Waltraud Paul
-  affiliation: CNRS, CRLAO
-  address: 105, Bd. Raspail, 75005 Paris waltraud.paul\@ehess.fr
-- name: Guido Vanden Wyngaerd
-  affiliation: KU Leuven
-classoption: [cm, linguex]
+- name: Claudiane Bondu
+- name: Antoine Castonguay
+- name: Juliette Robin
+
 #
 # Possible classoptions:
 # - [times] for Times font (default if no option is chosen)
@@ -47,7 +45,6 @@ RÉSUMÉ: |
   the stylesheet. So as to provide instruction both by example and by rule,
   this document has been formatted in accordance with the stylesheet it contains.
 # Specify keywords here:
-keywords: stylesheet, glossa, article
 # To add the word count, uncomment the following option and replace the number
 # with the document word count.
 # wordcount: 1000
@@ -63,9 +60,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 # INTRODUCTION
-
+L'étude porte sur le lien entre l'indice de population, sa richesse et son abondance de la faune benthique des rivières du Québec. Cette dernière a été réalisée par des étudiants au baccalauréat en écologie à l'Université de Sherbrooke. Elle participe à contribuer de façon significative à la compréhension de l'écosystème aquatique de cette région. Les rivières du Québec abritent une diversité de vie benthique, qui joue un grand rôle dans le maintien de l'équilibre écologique et de la santé des écosystèmes aquatiques. Cependant, certaines de ces espèces sont sensibles au niveau de pollution de l’eau ce qui fait d’eux de bons indicateurs de la qualité de l’eau. Dans cette étude, les étudiants se sont penchés sur l’abondance de chaque site ainsi que de leur richesse en lien avec des facteurs environnent. En examinant cette relation, ils visent à récolter des informations qui permettront d’aider à sensibiliser les riverains de la région sur l’effet de la pollution sur la biodiversité aquatique.
 
 # MÉTHODOLOGIE
+Les sites d’échantillonnage mesurent 100 m et devront se situer à au moins 100 m en amont ou en aval (si les conditions en amont sont inadéquates) d’une zone urbanisée comme route ou d’un pont. Les coups de filet doivent être fait à des vitesses du courant différents, à des profondeurs différentes, quelques-uns en bordure et d’autres plus au centre pour favoriser la capture d’une plus grande diversité de taxons. Au total, 20 coups de filet seront réalisés. L’échantillonnage commence en aval du site et s’effectue à l’aide d’un filet troubleau. Il doit être bien rincé avant de passer à la station suivante pour éviter la contamination. À la station, une zone d’échantillonner d’une longueur de 50 cm sur une largeur de 30 cm en amont du filet est délimité. Ce dernier sera enfoncé légèrement dans le substrat afin de ne laisser aucun organisme en dessous et son ouverture fait face au courant. Pendant 30 secondes, une personne va frotter les roches et les débris avec les mains à l’intérieur de la surface à échantillonner. Lorsque les endroits sont trop profonds, les pieds peuvent être utilisés. Retirer le filet à contre-courant pour éviter que des organismes s’échappent avec le courant. Le contenu de chaque coup de filet est transféré dans un seau à fond grillagé à chaque coup de filet. Le seau est laissé dans une eau peu profonde et calme pour d’éviter l’assèchement de l’échantillon. À la fin des 20 coups de filet, les gros débris sont jeté après avoir été inspectés afin de trouver des organismes et les remettre dans l’échantillon. Ensuite, l’échantillon doit être rincé à l’eau claire afin d’enlever les sédiments fins en enfonçant le seau dans l’eau et on remue délicatement l’échantillon pour le débarrasser des particules les plus fines, lesquelles s’échapperont par le fond grillagé. L’opération peut être répétée plusieurs fois. Ensuite, laisser l’eau s’égoutter de l’échantillon puis transférer le dans un contenant auquel est ajouté de l’alcool à 95 %. L’eau restant contenue dans l’échantillon diluera la solution jusqu’au niveau approprié, soit 70 à 80 % d’alcool. L’échantillon total constitué du benthos et des détritus devrait avoir un volume d’environ 1 litre. Les contenants doivent être étiquetés. Une étiquette doit être collé sur le pot et doit indiquer la date, le nom de la rivière, le numéro de la région hydrographique (annexe 1), le numéro de la station, le nombre de contenants et le nom du bassin versant principal. Une seconde étiquette est mise à l’intérieur des contenants en papier imperméable. Il faut s’assurer que les contenants sont bien scellés et que les organismes sont entièrement recouverts par l’alcool. Par la suite, l’identification des macroinvertébrés benthiques des échantillons sont effectués en laboratoire.
 
 # RÉSULTATS
 
