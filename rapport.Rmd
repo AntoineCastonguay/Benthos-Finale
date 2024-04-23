@@ -5,8 +5,8 @@ date: "2024-04-15"
 output: html_document
 ---
 
-Introduction :
-Les invertébrés benthiques, habitants des fonds aquatiques, jouent un rôle crucial dans les écosystèmes fluviaux en tant qu'indicateurs de la qualité de l'eau et de la santé des habitats. Dans les rivières du Québec, ces organismes constituent une composante essentielle de la biodiversité et sont largement étudiés pour évaluer l'état écologique des cours d'eau. Parmi les indices utilisés pour évaluer la santé des écosystèmes aquatiques, l'Indice biotique d’Hilsenhoff (HBI) se démarque comme un outil précieux, basé sur la sensibilité des invertébrés benthiques aux perturbations environnementales. En combinant des données sur la richesse spécifique et la composition taxonomique des communautés d'invertébrés benthiques, l'HBI fournit des informations importantes sur la qualité de l'eau et les impacts des activités humaines sur les écosystèmes aquatiques. Cette étude vise à examiner la relation entre la richesse spécifique des invertébrés benthiques, l'HBI et les caractéristiques environnementales des rivières du Québec, afin de mieux comprendre les facteurs influençant la santé des écosystèmes fluviaux dans cette région.
+Introduction : 
+Les invertébrés benthiques, habitants des fonds aquatiques, jouent un rôle crucial dans les écosystèmes fluviaux en tant qu'indicateurs de la qualité de l'eau et de la santé des habitats. Dans les rivières du Québec, ces organismes constituent une composante essentielle de la biodiversité et sont largement étudiés pour évaluer l'état écologique des cours d'eau. Parmi les indices utilisés pour évaluer la santé des écosystèmes aquatiques, l'Indice biotique d’Hilsenhoff (HBI) se démarque comme un outil précieux, basé sur la sensibilité des invertébrés benthiques aux perturbations environnementales. En combinant des données sur la richesse spécifique et la composition taxonomique des communautés d'invertébrés benthiques, l'HBI fournit des informations importantes sur la qualité de l'eau et les impacts des activités humaines sur les écosystèmes aquatiques. Cette étude vise à examiner 
 
 Méthode : 
 Les relevés du benthos sont effectués au moyen d'un filet à mailles fines (D-net), qui est traîné à trois reprises le long du fond de la rivière. L'effort d'échantillonnage est standardisé à 3 mètres carrés. Les échantillons sont ensuite transportés au laboratoire où ils sont étalés sur des plateaux de tri de type « Bogorov », permettant l'identification et le dénombrement des espèces. Seule une fraction de l'échantillon est analysée. L'abondance des espèces est calculée en fonction du nombre d'individus trouvés dans l'échantillon et de la fraction analysée.
@@ -22,7 +22,6 @@ library(tarchetypes)
 list.res <- tar_read(graph)
 ```
 
-
 ```{r}
 # Aquisition des donnees des niveau de pollution des rivieres.
 pollution.rivieres <- list.res[[1]]
@@ -31,20 +30,23 @@ plt <- barplot(height = pollution.rivieres$nombre_rivieres, space=0.3,
                main = "Distribution des rivières selon leur niveau de pollution",
                col='steelblue', xaxt="n")
 text(plt, par("usr")[3], labels = pollution.rivieres$categorie_pollution, srt = 35, adj = c(1.1,1.1), xpd = TRUE, cex=0.7)
+```
 
+```{r}
 richesse.pollution <- list.res[[2]]
 
 plot(richesse.pollution$HBI,richesse.pollution$richesse,
      main="Impact de la pollution sur la richesse spécique des rivières",
      xlab="Pollution (HBI)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
 abline(lm(richesse.pollution$richesse ~ richesse.pollution$HBI))
+```
 
+```{r}
 matrice <- list.res[[3]]
 
 plot(matrice$temperature_eau_c,matrice$richesse,
      main="Impact de la température des rivières sur leur richesse spécique",
      xlab="Température (ºC)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
-
 abline(lm(matrice$richesse ~ matrice$temperature_eau_c))
 ```
 
