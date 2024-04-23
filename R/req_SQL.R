@@ -1,6 +1,6 @@
-SQL.get <- function() {
+SQL.get <- function(database) {
   
-  con <- dbConnect(SQLite(), dbname="benthos.db")
+  con <- dbConnect(SQLite(), dbname=database)
   
   req <- 
   "WITH abondances_par_echantillonnage AS (

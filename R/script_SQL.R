@@ -83,5 +83,6 @@ SQL.make <- function(table){
   dbWriteTable(con, append = TRUE, name = "condition_echantillonnage", value = bd.cond.ech, row.names = FALSE)
   dbWriteTable(con, append = TRUE, name = "abondance", value = bd.ab, row.names = FALSE)
   dbDisconnect(con)
+  return("benthos.db")
 }
 
