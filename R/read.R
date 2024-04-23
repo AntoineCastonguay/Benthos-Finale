@@ -1,13 +1,7 @@
 # Fonction read.dossier
 
-read.dossier <- function(){
-  
-  # Emplacement dossier data benthos
-  dossier <- "data"
-  
-  # Liste tous les fichiers avec l'extension .csv du dossier
-  fichiers <- list.files(dossier, pattern = "\\.csv$", full.names = TRUE)
-  
+read.dossier <- function(fichiers){
+
   noms.cols.attendus <- c( "date", 
                              "site", 
                              "date_obs",
