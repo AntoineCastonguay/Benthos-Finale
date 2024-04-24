@@ -6,22 +6,22 @@ name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iterat
 >>>>>>> b50371fdd7fa39eca16737349d00382f5c246d8e|||||||||||||||||
 >>>>>>> ef02b1e8d76373b5a8453b7737b11ddec772b601|||||||||||||||||
 >>>>>>> f1ad51a37b26fcfe47fb3cc9bb222a96e1376a30|||||||||||||||||
-benthos.brut|stem|a298f9211906373d|018d1f00de889e6b|5f40717372f8aff2|563296312||t19837.0883128826s|b024ce6320606816|10398|rds|local|vector|||0.13||
-benthos.clean|stem|eec675b340a3bafc|566d1df0d5784fe3|e7aab79397600d87|430395511||t19837.0883144397s|624caf4910b73433|9683|rds|local|vector|||0.1||
-benthos.noNA|stem|a93983783d62f0a2|aa3658f14bbba2cd|636f95da4a202ac6|1852897296||t19837.0883131604s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.02||
+benthos.brut|stem|07a6b96583e6ee85|018d1f00de889e6b|b59e10578c538903|563296312||t19837.5933465595s|b024ce6320606816|10398|rds|local|vector|||0.25||
+benthos.clean|stem|0425076f1b97e985|566d1df0d5784fe3|cbf348543bc5363a|430395511||t19837.5933501044s|624caf4910b73433|9683|rds|local|vector|||0.22||
+benthos.noNA|stem|f4cf36114fd4b3a2|aa3658f14bbba2cd|adb8ee5b0a58966d|1852897296||t19837.5933471429s|ee9ccfdb71ef02ff|9728|rds|local|vector|||0.03||
 benthos.normT|stem|4cf4997ee88b2a69|7a0969f549b2a457|1f369247e5d7b296|-291441157||t19833.7280054257s|256f8684626b156a|9689|rds|local|vector|||1.01||
 colNA|function|8cf4f81d5ef45fb3|||||||||||||||
-database|stem|5c6b87e85cbdcfed|0850fc2ae5328312|c1bcdf54466a4fc9|-495062340|benthos.db|t19837.088319528s|b04ac78b1535f33f|241664|file|local|vector|||0.1|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
-file_paths|stem|0fe1fa93c5bcdfd6|2eb875224e05cde4|ce7fdc910c766d5d|-1262214154||t19837.0883113312s|c3c7dad272b3f852|485|rds|local|vector|||0||
-graph|stem|10053645d017c9c5|8f92b21798f2967a|8a6f62b98937d501|-11234161||t19837.08831991s|de32d31adcb9aa43|1105|rds|local|vector|||0.02||
+database|stem|172b874c5368b5b8|0850fc2ae5328312|26aebdd8de06cfe5|-495062340|benthos.db|t19837.5933607889s|b04ac78b1535f33f|241664|file|local|vector|||0.24|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+file_paths|stem|3cfa6e5254d3afe1|2eb875224e05cde4|ce7fdc910c766d5d|-1262214154||t19837.5933432304s|c3c7dad272b3f852|485|rds|local|vector|||0||
+graph|stem|db7d1293c44706c8|8f92b21798f2967a|f6879c8cfd70049e|-11234161||t19837.5933615657s|de32d31adcb9aa43|1105|rds|local|vector|||0.05||
 la.taxonomie|function|b80f832def209c9c|||||||||||||||
 nettoyer|function|26b7b5fd0ebad7a1|||||||||||||||
-path|stem|1fbb45a0791ba68b|2aa68212adf25336|ef46db3751d8e999|1488123031|./data|t19827.7345672175s|dd4e0386e40885e6|32768|file|local|vector|||0||
+path|stem|1fbb45a0791ba68b|2aa68212adf25336|ef46db3751d8e999|1488123031|./data|t19837.5925759026s|db7d75b1b9e45804|24576|file|local|vector|||0||
 prep.table|function|f5053b128d7321da|||||||||||||||
-rapport|stem|716da465d98606c0|213d64cd97ae8c6d|9094b996307274d3|-1266156412|rapport.html*rapport.Rmd|t19837.0898617354s|2b0c5a5beb100033|701091|file|local|vector|||1.07||
+rapport|stem|71630f58b0285798|6c4aaf2d415eb151|376e01f1fac5709d|-1266156412|rapport-finale/rapport-finale.pdf*rapport-finale/rapport-finale.Rmd*rapport-finale/rapport-finale_files|t19837.6511992406s|502cc8c0a7338205|110611|file|local|vector|||21.19|Package xcolor Warning Package option usenames is obsolete and ignored on input line 266.|
 read.dossier|function|7a1bc59fc8c1d7f6|||||||||||||||
 SQL|stem|976b5984c138c56f|0850fc2ae5328312|ce5ff8ed926d31b5|706419165||t19834.6693970096s|ac45463db19e2cbe|48|rds|local|vector|||0.105|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
 SQL.get|function|e28aeebc51da1f5f|||||||||||||||
 SQL.make|function|9948615e0e00a479|||||||||||||||
-table|stem|c367e2cc0908d92e|7b314a3b69722f22|6d6388764916b441|974367663||t19837.088318266s|ba002d9f062b513f|11132|rds|local|vector|||0.02||
-taxo|stem|b38f97a88578c26f|191ba77079c7073a|918f0f6c2b973226|-1810004822||t19837.088317965s|2018e1854463aeab|2799|rds|local|vector|||0.29||
+table|stem|a1235c9756a213d6|7b314a3b69722f22|58e684a8d2ce0119|974367663||t19837.5933578753s|ba002d9f062b513f|11132|rds|local|vector|||0.03||
+taxo|stem|edafbef352eec407|191ba77079c7073a|4446d6324c1e48bb|-1810004822||t19837.59335719s|2018e1854463aeab|2799|rds|local|vector|||0.59||
