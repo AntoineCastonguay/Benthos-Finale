@@ -13,6 +13,7 @@ Les relevés du benthos sont effectués au moyen d'un filet à mailles fines (D-
 
 Ce protocole est détaillé dans le document intitulé Protocole d’échantillonnage des macroinvertébrés benthiques d’eau douce du Québec.
 
+Résultat :
 ```{r}
 library(targets)
 library(tarchetypes)
@@ -54,12 +55,5 @@ abline(lm(matrice$richesse ~ matrice$temperature_eau_c))
 Les résultats varient beaucoup. La température du le site avec le plus grand nombre d'espèces est de (?) tandis que celle du site avec la plus basse richesse est de (?). Le site avec la plus haute température compte (?) espèces tandis que le site avec la plus basse en compte (?).
 
 Discussion:
-
-
-
-
-
-
-
 
 
