@@ -57,6 +57,6 @@ list(
   ),
   tar_render(
     rapport,
-    path ="Rapport/Rapport.Rmd"
+    path ="rapport.Rmd"
   )
 )

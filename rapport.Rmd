@@ -3,47 +3,46 @@ title: "rapport"
 author: "AJC"
 date: "2024-04-15"
 output: html_document
+bibliography: bio500.bib
 ---
 
-
-<<<<<<< HEAD
-Méthode : 
-Les relevés du benthos sont effectués au moyen d'un filet à mailles fines (D-net), qui est traîné à trois reprises le long du fond de la rivière. L'effort d'échantillonnage est standardisé à 3 mètres carrés. Les échantillons sont ensuite transportés au laboratoire où ils sont étalés sur des plateaux de tri de type « Bogorov », permettant l'identification et le dénombrement des espèces. Seule une fraction de l'échantillon est analysée. L'abondance des espèces est calculée en fonction du nombre d'individus trouvés dans l'échantillon et de la fraction analysée.
-
-Ce protocole est détaillé dans le document intitulé Protocole d’échantillonnage des macroinvertébrés benthiques d’eau douce du Québec.
-
-Résultat :
-```{r}
-=======
-```{r include=FALSE}
->>>>>>> 084908ddea9aa10c4e03ff0bc9ddad82d08a8315
+```{r, echo=FALSE}
 library(targets)
 library(tarchetypes)
 library(knitr)
 ```
 
-```{r include=FALSE}
-list.res <- tar_read(graph)
-```
-
 ### Résumé
-Cette étude analyse les interactions entre la qualité de l'eau mesurée par l'Indice biotique d’Hilsenhoff (HBI) et la biodiversité des invertébrés benthiques dans les rivières du Québec, en particulier la richesse spécifique. En utilisant un échantillonnage standardisé, les chercheurs ont découvert que la température de l'eau avait une corrélation plus significative avec la biodiversité que l'HBI. Bien que la pollution ait un effet sur la biodiversité, la température semble jouer un rôle plus crucial, suggérant que les impacts climatiques pourraient être plus déterminants pour la santé des écosystèmes aquatiques que prévu. Ces résultats encouragent une évaluation plus large des facteurs environnementaux affectant les écosystèmes fluviaux.
+Cette étude analyse les interactions de la qualité de l'eau mesurée par l'Indice biotique d’Hilsenhoff (HBI) ou de la température sur la biodiversité des invertébrés benthiques dans les rivières du Québec, en particulier la richesse spécifique. En utilisant un échantillonnage standardisé, les chercheurs ont découvert que la température de l'eau avait une corrélation plus significative avec la biodiversité que l'HBI. Bien que la pollution n'ait pas d'effet sur la biodiversité, la température semble jouer un rôle plus crucial, suggérant que les impacts climatiques pourraient être plus déterminants pour la santé des écosystèmes aquatiques que prévu. Ces résultats encouragent une évaluation plus large des facteurs environnementaux affectant les écosystèmes fluviaux.
 
 
 ### Introduction
 
-Les invertébrés benthiques, organismes essentiels des fonds aquatiques, sont des indicateurs clés de la qualité de l'eau et de la santé des écosystèmes fluviaux. Au Québec, ces invertébrés jouent un rôle primordial dans la biodiversité des rivières et sont utilisés pour évaluer l'état écologique des cours d'eau. L'Indice biotique d’Hilsenhoff (HBI) est l'un des outils utilisés pour mesurer la sensibilité des communautés d'invertébrés aux perturbations environnementales, offrant des informations importantes sur l'impact des activités humaines. Cette étude vise à explorer les corrélations entre l'HBI et les divers mesures de biodiversités du benthique des cours d'eau du Québec, tel que la richesse spécifique et l'abondance. L'étude explore aussi la corrélation entre la température de l'eau et la biodiversité du benthique des cours d'eau.
+Les invertébrés benthiques, organismes essentiels des fonds aquatiques, sont des indicateurs clés de la qualité de l'eau et de la santé des écosystèmes fluviaux. Au Québec, ces invertébrés jouent un rôle primordial dans la biodiversité des rivières et sont utilisés pour évaluer l'état écologique des cours d'eau. L'Indice biotique d’Hilsenhoff (HBI) est l'un des outils utilisés pour mesurer la sensibilité des communautés d'invertébrés aux perturbations environnementales, offrant des informations importantes sur l'impact des activités humaines. Son interpretation se fait avec l'échelle suivante : 0.00 à 3.50 Excellente (sans pollution organique), 3.51 à 4.50 Très bonne (légère pollution organique possible), 4.51 à 5.50 Bonne (pollution organique probable), 5.51 à 6.50 Moyenne (pollution organique assez substantielle), 6.51 à 7.50 Plutôt mauvaise (pollution organique substantielle), 7.51 à 8.50 Mauvaise (pollution organique très substantielle) et 8.51 à 10.00 Très mauvaise (pollution organique grave). Dans cette étude, nous visont à explorer les corrélations entre l'HBI et une mesure de biodiversités benthique des cours d'eau du Québec qui est la richesse spécifique. Sinon, l'étude explore aussi la corrélation entre la température de l'eau et la biodiversité du benthique des cours d'eau.
 
 ### Méthode
 
 Le benthos a été échantillonné à l'aide d'un filet à mailles fines (D-net), traîné trois fois le long du fond de la rivière pour couvrir une superficie standard de 3 mètres carrés. Au total, 58 échantillons ont été collectés sur 40 sites distincts. Les échantillons recueillis ont été transportés au laboratoire pour tri et identification sur des plateaux de tri de type Bogorov. Cette approche méthodologique suit le protocole détaillé dans le document Protocole d’échantillonnage des macroinvertébrés benthiques d’eau douce du Québec.
 
-Par la suite, les données ont été compilées dans des fichiers CSV, lues, nettoyées et analysées grâce au logiciel statistique R. L'abondance des espèces dans chaque échantillon a été évaluée en fonction des individus présents dans une fraction de l'échantillon analysé. La richesse spécifique est calculée en comptant le nombre de taxons distincts retrouvés dans chaque échantillon. Nous avons aussi calculé l'Indice biotique d’Hilsenhoff de chaque échantillonnage en assignant un score à chaque taxon, puis en calculant la somme pondérée de chaque taxon présent sur un site, tel que décrit dans (s1). Puisque les données provenant de différentes dates mais du même site ne sont pas indépendantes, nous avons utilisé les moyennes des données quantitatives par site afin de pouvoir calculer des corrélations fiables. 
+Par la suite, les données ont été compilées dans des fichiers CSV, lues, nettoyées et analysées grâce au logiciel statistique R. L'abondance des espèces dans chaque échantillon a été évaluée en fonction des individus présents dans une fraction de l'échantillon analysé. La richesse spécifique est calculée en comptant le nombre de taxons distincts retrouvés dans chaque échantillon. Nous avons aussi calculé l'Indice biotique d’Hilsenhoff de chaque échantillonnage en assignant un score à chaque taxon, puis en calculant la somme pondérée de chaque taxon présent sur un site, tel que décrit dans @moisan_guide_2013. Puisque les données provenant de différentes dates mais du même site ne sont pas indépendantes, nous avons utilisé les moyennes des données quantitatives par site afin de pouvoir calculer des corrélations fiables. 
+
+Formule de Indice biotique d’Hilsenhoff :  
+$HBI = \sum x_i\frac{t_i}{n}$  
+$x_i =$ nombre d'individus du taxon i  
+$t_i =$ tolérence du taxon i  
+$n =$ nombre d'individus coposant l'échantillon  
+$i =$ Chacun des taxons de l'échantillon  
 
 ### Résultats
 
-L'indice de pollution HBI des sites, rapporté à la Figure \ref{fig:histo}, présente une distribution normale qui varie entre 3,017 et 6,299, soit entre les cotes de moyenne à excellente, avec une prédominance de sites classés comme très bons. 
-```{r histo, echo=FALSE, fig.cap="\\label{fig:histo} Niveau de pollution des rivières du Québec", fig.width=7, fig.height=6}
+```{r, echo=FALSE}
+list.res <- tar_read(graph)
+```
+
+#### L'indice de pollution HBI
+
+L'indice de pollution HBI des sites, rapporté à la Figure, présente une distribution normale qui varie entre 3,017 et 6,299, soit entre les cotes de moyenne à excellente, avec une prédominance de sites classés comme très bons.  
+```{r, echo=FALSE}
 # Aquisition des donnees des niveau de pollution des rivieres.
 pollution.rivieres <- list.res[[1]]
 
@@ -52,45 +51,43 @@ plt <- barplot(height = pollution.rivieres$nombre_rivieres, space=0.3,
                col='steelblue', xaxt="n")
 text(plt, par("usr")[3], labels = pollution.rivieres$categorie_pollution, srt = 35, adj = c(1.1,1.1), xpd = TRUE, cex=0.7)
 ```
-Il n'y a qu'une faible corrélation négative entre le niveau de pollution (HBI) et la richesse spécifique des espèces. Figure \ref{fig:histo}
-```{r include=FALSE}
+
+#### La relation entre HBI et la richesse spécifique
+
+Il y a une corrélation négative de 0.1 entre le niveau de pollution (HBI) et la richesse spécifique des espèces. Ainsi, il n'y a aucun relation évidente entre les deux parametre.  
+```{r, echo=FALSE}
 # Aquisition des donnees des niveau de pollution des rivieres en fonction sa richeese.
 richesse.pollution <- list.res[[2]]
-```
 
-```{r}
-cor(richesse.pollution[c("HBI","richesse")],use = "pairwise.complete.obs")[1,2]
-```
+cor.HBI <- cor(richesse.pollution[c("HBI","richesse")],use = "pairwise.complete.obs")[1,2]
 
-```{r echo=FALSE}
 plot(richesse.pollution$HBI,richesse.pollution$richesse,
      main="Impact de la pollution sur la richesse spécique des rivières",
      xlab="Pollution (HBI)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
 abline(lm(richesse.pollution$richesse ~ richesse.pollution$HBI))
+
 ```
 
-En revanche, la température de l'eau montre une corrélation positive plus forte avec la richesse spécifique des sites. 
-```{r include=FALSE}
+#### la relation entre la température et la richesse spécifique
+
+En revanche, la température de l'eau montre une corrélation positive de 0.44 avec la richesse spécifique des sites. Ainsi, plus la température est élevé, plus il y a une grande diversité.  
+```{r, echo=FALSE}
 # Aquisition des donnees des niveau de pollution des rivieres.
 matrice <- list.res[[3]]
-```
 
-```{r}
-cor(matrice[c("temperature_eau_c","richesse")],use = "pairwise.complete.obs")[1,2]
-```
+cor.Temp <- cor(matrice[c("temperature_eau_c","richesse")],use = "pairwise.complete.obs")[1,2]
 
-```{r echo=FALSE}
 plot(matrice$temperature_eau_c,matrice$richesse,
      main="Impact de la température des rivières sur leur richesse spécique",
      xlab="Température (ºC)", ylab="Nombre d'espèces distinctes", pch = 19, col='steelblue')
 abline(lm(matrice$richesse ~ matrice$temperature_eau_c))
 ```
 
-<<<<<<< HEAD
-=======
 ### Discussion
 
-Cette observation souligne l'importance de la température comme facteur écologique significatif influençant la diversité des invertébrés benthiques. Ces résultats indiquent que la température pourrait jouer un rôle plus important sur la biodiversité des cours d'eau du Québec que leur niveau de pollution. Cela pourrait être dû au climat relativement froid du Québec, ce qui rend la température un facteur particulièrement limitant pour plusieurs espèces et donc joue un rôle d'autant plus prominant sur la composition des milieux aquatiques. De plus, les cours d'eau analysés ayant tous un niveau de pollution relativement bas, cela pourrait contribuer à diminuer l'impact de ce facteur.
+Dans le but d'élucider les facteurs influençant la richesse spécifique des rivières du Québec, deux paramètres clés ont été étudiées. Tout d'abord, l'analyse de la corrélation entre le niveau de pollution, évalué par l'indice biotique d'Hilsenhoff (HBI), et la richesse spécifique des espèces aquatiques révèle une relation faible, presque négligeable. Avec un coefficient négatif de 0.1, il semble que le niveau de polution ne joue pas un rôle déterminant majeur dans la diversité des espèces dans ces environnements. D'autres variables non considérées dans cette étude pourraient exercer une influence plus significative sur la composition de ces communautés. De plus, les cours d'eau analysés ayant tous un niveau de pollution relativement bas, cela pourrait contribuer à diminuer l'impact de ce facteur. 
+
+En revanche, une corrélation positive notable de 0.44 entre la température de l'eau et la richesse spécifique suggère une relation beaucoup plus significative. Les sites où la température de l'eau est plus élevée présentent une diversité d'espèces plus grande. En se fiant à l'étude de @bonacina_effects_2023, la température a un impact certain sur les macroinvertébrés. Chacque macroinvertébrer a sont étendue de tolérence. Ainsi, on peut en conclure selon les donnée qu'un plus grand nombre de taxon sont tolérent a des température élever qu'à des température plus basse. 
 
 Les variations observées et l'absence de corrélation forte suggèrent une complexité dans les interactions entre la qualité de l'eau mesurée par l'HBI, la température et la biodiversité des invertébrés benthiques. Des facteurs supplémentaires, comme la présence de certaines espèces clés, la latitude et d'autres facteurs physiques, chimiques ou biologiques, pourraient influencer ces résultats. En outre, l'effet de la température sur la biodiversité des sites mérite une exploration plus détaillée, afin de comprendre les mécanismes sous-jacents qui pourraient expliquer la corrélation. Le changement de température a-t-il un impact plus direct sur l'abondance de certains taxons en particulier, par exemple?
 
@@ -100,5 +97,4 @@ Cette étude a exploré les interactions complexes entre la qualité de l'eau, m
 
 Par ailleurs, la température de l'eau a montré une corrélation plus marquée avec la richesse spécifique, indiquant que les variations thermiques pourraient jouer un rôle prépondérant dans la distribution des communautés d'invertébrés benthiques. Ces découvertes mettent en lumière la nécessité de prendre en compte une gamme plus large de variables environnementales lors de l'évaluation de la santé des écosystèmes aquatiques. D'autres études seront nécessaires pour approfondir ce sujet.
 
-
->>>>>>> 084908ddea9aa10c4e03ff0bc9ddad82d08a8315
+### Bibliographie
