@@ -24,10 +24,10 @@ SQL.make <- function(table){
   dbSendQuery(con, "DROP TABLE IF EXISTS site")
   creer_site <-
     "CREATE TABLE site (
-    date              VARCHAR(50),
+    date              DATE(50),
     site              VARCHAR(50),
-    date_obs          VARCHAR(50),
-    heure_obs         VARCHAR(50),
+    date_obs          DATE(50),
+    heure_obs         TIME(50),
     fraction          DOUBLE(5),
     PRIMARY KEY (date,site)
   );"
@@ -37,7 +37,7 @@ SQL.make <- function(table){
   dbSendQuery(con, "DROP TABLE IF EXISTS condition_echantillonnage")
   creer_condition_echantillonnage <- 
     "CREATE TABLE condition_echantillonnage (
-    date_cond           VARCHAR(50),
+    date_cond           DATE(50),
     site_cond           VARCHAR(50),
     station             VARCHAR(50),
     largeur_riviere     DOUBLE(5),
@@ -55,7 +55,7 @@ SQL.make <- function(table){
   dbSendQuery(con, "DROP TABLE IF EXISTS abondance")
   creer_abondance <-
     "CREATE TABLE abondance (
-    date_ab             VARCHAR(50),
+    date_ab             DATE(50),
     site_ab             VARCHAR(50),
     identification_ab   VARCHAR(50),
     abondance           INTEGER(4),

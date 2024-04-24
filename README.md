@@ -8,7 +8,7 @@ Ce project analyze la biodiversité du benthos des rivières du Québec. Nous ut
 - `R/`: scripts R
 - `data/`: données du benthos
 - `_targets.R`: défini les étapes du pipeline du projet
-- `rapport.Rmd`: RMarkdown document for reporting analysis results.
+- `rapport-finale/rapport-finale.Rmd`: RMarkdown document for reporting analysis results.
 - `benthos.db`: base de données générées à partir des données CSV brutes.
 
 ## Configuration
