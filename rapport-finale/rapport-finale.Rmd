@@ -51,7 +51,6 @@ Formule d’Indice biotique d’Hilsenhoff :
 # Résultats
 
 ```{r, echo=FALSE}
-setwd("../")
 list.res <- tar_read(graph)
 ```
 
